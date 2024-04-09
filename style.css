@@ -1993,7 +1993,7 @@ footer a:hover {
   margin-bottom: 60px;
 }
 
-.faq__items{
+.faq__items {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -2002,7 +2002,7 @@ footer a:hover {
   padding: 40px;
 }
 
-.faq__item{
+.faq__item {
   width: calc(50% - 15px);
   cursor: pointer;
   padding: 30px;
@@ -2029,20 +2029,33 @@ footer a:hover {
   margin-bottom: 0;
 }
 
+.faq__item:hover {
+  border: 1px solid $button_background_color;
+}
+
+.faq__item:hover span {
+  border: 1px solid $button_background_color;
+}
+
 .faq__item.open {
   background-color: $background1_color;
   border: 1px solid $background1_color;
 }
 
-.faq__item.open div{
+.faq__item.open div {
   margin-bottom: 20px;
 }
 
-.faq__item.open svg{
+.faq__item.open span {
+  background-color: $button_background_color;
+  border: 1px solid $button_background_color;
+}
+
+.faq__item.open svg {
   transform: rotate(90deg);
 }
 
-.faq__item p{
+.faq__item p {
   font-weight: 400;
   padding: 0;
   visibility: hidden;
@@ -2053,20 +2066,20 @@ footer a:hover {
   color: $body_secondary;
 }
 
-.faq__item.open p{
+.faq__item.open p {
   visibility: visible;
   height: auto;
   overflow: auto;
   opacity: 1;
 }
 
-@media (max-width: 1279px){
+@media (max-width: 1279px) {
   .faq {
     padding-bottom: 200px;
   }
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1023px) {
   .faq {
     padding-bottom: 160px;
   }
@@ -2076,7 +2089,7 @@ footer a:hover {
     margin-bottom: 40px;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .faq {
     padding-bottom: 120px;
   }
