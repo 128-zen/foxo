@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -13,7 +13,7 @@
           "type": "color",
           "description": "Choose the primary color for Help Center background",
           "label": "Background 1 Color",
-          "value": "#F8FAFC"
+          "value": "#D9D9D9"
         },
         {
           "identifier": "background2_color",
@@ -27,21 +27,14 @@
           "type": "color",
           "description": "Choose background 3 color. It is used for the background shapes",
           "label": "Background 3 Color",
-          "value": "#161A26"
-        },
-        {
-          "identifier": "background4_color",
-          "type": "color",
-          "description": "Choose background 4 color",
-          "label": "Background 4 Color",
-          "value": "#4537E6"
+          "value": "#222B27"
         },
         {
           "identifier": "headings_primary",
           "type": "color",
           "description": "Choose heading primary color",
           "label": "Heading Primary Color",
-          "value": "#161A26"
+          "value": "#222B27"
         },
         {
           "identifier": "body_primary",
@@ -65,18 +58,18 @@
           "value": "#FFFFFF"
         },
         {
-          "identifier": "cta_color",
+          "identifier": "button_background_color",
           "type": "color",
           "description": "Choose button background color",
           "label": "Button Background Color",
-          "value": "#252A3B"
+          "value": "#B9E97D"
         },
         {
           "identifier": "hover_link_color",
           "type": "color",
           "description": "Choose the color for the hover state of the links.",
           "label": "Hover Link Color",
-          "value": "#4537E6"
+          "value": "#B9E97D"
         }
       ]
     },
@@ -300,6 +293,13 @@
           "description": "Enter popular keywords (separated by commas)",
           "label": "Popular Keywords",
           "value": ""
+        },
+        {
+          "identifier": "tags_color",
+          "type": "color",
+          "description": "Choose tags background color",
+          "label": "Tags Background Color",
+          "value": "#E9ECE4"
         }
       ]
     },
