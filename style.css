@@ -1069,12 +1069,15 @@ ul {
   background-color: $background1_color;
 }
 
-.contact-us__item img {
-  width: 34px;
-  height: 34px;
+.contact-us__item > div {
   padding: 13px;
   border-radius: 50px;
   background-color: $button_background_color;
+}
+
+.contact-us__item img {
+  width: 34px;
+  height: 34px;
 }
 
 .contact-us__item h4 {
