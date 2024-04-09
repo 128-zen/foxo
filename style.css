@@ -1996,15 +1996,18 @@ footer a:hover {
 
 .faq__items{
   display: flex;
-  gap: 30px 60px;
+  gap: 30px;
   flex-wrap: wrap;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 40px;
 }
 
 .faq__item{
   width: calc(50% - 30px);
   cursor: pointer;
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 8px;
   align-self: flex-start;
   border: 1px solid $background2_color;
 }
@@ -2025,6 +2028,11 @@ footer a:hover {
   position: relative;
   padding-right: 20px;
   color: $headings_secondary;
+}
+
+.faq__item.open {
+  background-color: $background1_color;
+  border: 1px solid $background1_color;
 }
 
 .faq__item.open h6{
