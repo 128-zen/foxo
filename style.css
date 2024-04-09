@@ -851,6 +851,7 @@ ul {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
   border-top: solid 1px #ddd;
   border-bottom: solid 1px #ddd;
+  border-radius: 8px;
   right: 0;
   left: 0;
   top: 81px;
@@ -1064,10 +1065,12 @@ ul {
 
 .footer__top h2 {
   margin-bottom: 20px;
+  color: $text_secondary;
 }
 
 .footer__top p {
   margin-bottom: 40px;
+  color: $body_secondary;
 }
 
 .footer__social {
@@ -1663,20 +1666,24 @@ footer a:hover {
 /***** Home page *****/
 .section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 @media (max-width: 1279px) {
   .section {
     padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 @media (max-width: 1023px) {
   .section {
     padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 @media (max-width: 767px) {
   .section {
     padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
