@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -394,6 +394,92 @@
           "description": "Show hero subtitle",
           "label": "Toggle Subtitle Component",
           "value": true
+        }
+      ]
+    },
+    {
+      "label": "Homepage Introduction Section",
+      "variables": [
+        {
+          "identifier": "introduction_img1",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 1 Image"
+        },
+        {
+          "identifier": "introduction_link1",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 1 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_heading1",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 1 Heading",
+          "value": "Getting started"
+        },
+        {
+          "identifier": "introduction_subtitle1",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 1 Subtitle",
+          "value": "Discover everything you need to know to start your journey"
+        },
+        {
+          "identifier": "introduction_img2",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 2 Image"
+        },
+        {
+          "identifier": "introduction_link2",
+          "type": "text",
+          "description": "Insert phone number",
+          "label": "Item 2 Phone Number",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_heading2",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 2 Heading",
+          "value": "Community"
+        },
+        {
+          "identifier": "introduction_subtitle2",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 2 Subtitle",
+          "value": "Discover everything you need to know to start your journey"
+        },
+        {
+          "identifier": "introduction_img3",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 3 Image"
+        },
+        {
+          "identifier": "introduction_link3",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 3 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "introduction_heading3",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 3 Heading",
+          "value": "Submit a request"
+        },
+        {
+          "identifier": "introduction_subtitle3",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 3 Subtitle",
+          "value": "Discover everything you need to know to start your journey"
         }
       ]
     },
