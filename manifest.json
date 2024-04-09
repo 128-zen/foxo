@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -577,18 +577,11 @@
           "value": "Frequently asked questions"
         },
         {
-          "identifier": "faq_link_text",
+          "identifier": "faq_subtitle",
           "type": "text",
-          "description": "Enter text",
-          "label": "Sidebar Link Text",
-          "value": "Go to help page"
-        },
-        {
-          "identifier": "faq_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Sidebar Link",
-          "value": "#"
+          "description": "Enter section subtitle",
+          "label": "Section Subtitle",
+          "value": "Easily create documentation, knowledge-base, FAQ, forum and more"
         },
         {
           "identifier": "faq_item1_heading",
