@@ -1066,6 +1066,7 @@ ul {
   padding: 40px;
   width: calc(33.3% - 20px);
   border-radius: 10px;
+  text-align: center;
   background-color: $background1_color;
 }
 
@@ -1089,17 +1090,16 @@ ul {
 
 .contact-us__item p {
   margin-top: 14px;
-  text-align: center;
 }
 
 @media (max-width: 1279px) {
   .contact-us .container {
-    
+    margin-top: -100px;
   }
 }
 @media (max-width: 1023px) {
   .contact-us .container {
-    
+    margin-top: -80px;
   }
   .contact-us h2 {
     margin-bottom: 40px;
@@ -1110,12 +1110,13 @@ ul {
 }
 @media (max-width: 767px) {
   .contact-us .container {
-    
+    margin-top: -60px;
   }
   .contact-us__items {
     gap: 20px;
   }
   .contact-us__item {
+    padding: 30px;
     max-width: 370px;
     width: 100%;
   }
