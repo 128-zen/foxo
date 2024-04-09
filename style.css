@@ -1888,24 +1888,12 @@ footer a:hover {
   align-items: center;
 }
 
-.find-solution__item a:first-of-type {
-  display: block;
-}
-
-.find-solution__item a{
-  color: $headings_secondary;
-}
-
-.find-solution__item a:hover, .find-solution__item a:hover h4 {
-  color: $hover_link_color2;
-}
-
 .find-solution__item a:hover svg {
   transform: rotate(45deg);
 }
 
 .find-solution__item a:hover path{
-  fill: $hover_link_color2;
+  fill: $text_secondary;
 }
 
 
