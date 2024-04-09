@@ -1063,7 +1063,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
+  padding: 40px;
   width: calc(33.3% - 20px);
   border-radius: 10px;
   background-color: $background1_color;
@@ -1082,12 +1082,14 @@ ul {
   height: 34px;
 }
 
-.contact-us__item h4 {
-  
+.contact-us__item a:hover {
+  text-decoration: underline;
+  color: $headings_primary;
 }
 
 .contact-us__item p {
   margin-top: 14px;
+  text-align: center;
 }
 
 @media (max-width: 1279px) {
@@ -1142,6 +1144,12 @@ ul {
   color: $body_secondary;
 }
 
+.footer__submit-request .button:hover {
+  background-color: transparent;
+  border: 1px solid $button_background_color;
+  color: $button_background_color;
+}
+
 .footer__social {
   display: flex;
   align-items: center;
@@ -1184,8 +1192,7 @@ footer a:hover {
   justify-content: space-between;
   align-items: center;
   max-width: 1170px;
-  padding: 30px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 30px;
 }
 
 .footer__bottom a {
