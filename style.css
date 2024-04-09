@@ -1414,8 +1414,9 @@ footer a:hover {
 
 .hero > img {
   position: absolute;
-  left: 0;
   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 @media (max-width: 1279px) {
