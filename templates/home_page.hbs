@@ -24,7 +24,7 @@
 </section>
 
 {{!-- Introduction Section --}}
-<div class="introduction">
+<section class="introduction">
   <div class="introduction__items container">
     <div class="introduction__item fade-in-up">
       <div>
@@ -48,52 +48,39 @@
       <p>{{settings.introduction_subtitle3}}</p>
     </div>
   </div>
-</div>
+</section>
 
 {{!-- Find Solution Section --}}
-<section class="find-solution">
-  <div class="lines">
-    <div></div>
-  </div>
-  <div class="container section">
-    {{#if settings.show_second_section_info}}
-      <div class="find-solution__information fade-in-up">
-        <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <g clip-path="url(#clip0_3307_1195)">
-              <path d="M12 0C5.40891 0 0 5.40891 0 12C0 18.5911 5.40891 24 12 24C18.5911 24 24 18.5911 24 12C24 5.40891 18.5911 0 12 0ZM13.4062 17.625C13.4062 18.4002 12.7752 19.0312 12 19.0312C11.2248 19.0312 10.5938 18.4002 10.5938 17.625V10.5938C10.5938 9.81853 11.2248 9.1875 12 9.1875C12.7752 9.1875 13.4062 9.81853 13.4062 10.5938V17.625ZM12 7.78125C11.2248 7.78125 10.5938 7.15022 10.5938 6.375C10.5938 5.59978 11.2248 4.96875 12 4.96875C12.7752 4.96875 13.4062 5.59978 13.4062 6.375C13.4062 7.15022 12.7752 7.78125 12 7.78125Z" fill="#4537E6"/>
-            </g>
-            <defs>
-              <clipPath id="clip0_3307_1195">
-                <rect width="24" height="24" fill="white"/>
-              </clipPath>
-            </defs>
-          </svg>
-          <p>{{settings.second_section_info_heading}}</p>
-        </div>
-        <p class="p-small">{{settings.second_section_info_subtitle}}</p>
-      </div>
-    {{/if}}
+{{#if settings.show_find_solution_section}}
+<section class="find-solution section">
+  <div class="container">
+    <h2>{{settings.find_solution_heading}}</h2>
+    <p>{{settings.find_solution_subtitle}}</p>
     <div class="find-solution__items">
       <div class="find-solution__item fade-in-up">
-        <img src="{{settings.second_section_item1_img}}" alt="image">
-        <a href="{{settings.second_section_item1_link}}"><h5>{{settings.second_section_item1_heading}}</h5></a>
-        <p>{{settings.second_section_item1_subtitle}}</p>
+        <a href="{{settings.find_solution_item1_link}}"><h4>{{settings.find_solution_item1_heading}}</h4></a>
+        <p class="p-small">{{settings.find_solution_item1_text}}</p>
+        <a href="{{settings.find_solution_item1_link}}">
+          {{settings.find_solution_item1_link_text}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L6.6 1.4L12.2 7H0V9H12.2L6.6 14.6L8 16L16 8L8 0Z" fill="white"/>
+          </svg>
+        </a>
       </div>
       <div class="find-solution__item fade-in-up">
-        <img src="{{settings.second_section_item2_img}}" alt="image">
-        <a href="{{settings.second_section_item2_link}}"><h5>{{settings.second_section_item2_heading}}</h5></a>
-        <p>{{settings.second_section_item2_subtitle}}</p>
+        <a href="{{settings.find_solution_item2_link}}"><h4>{{settings.find_solution_item2_heading}}</h4></a>
+        <p class="p-small">{{settings.find_solution_item2_text}}</p>
+        <a href="{{settings.find_solution_item2_link}}">
+          {{settings.find_solution_item2_link_text}}
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L6.6 1.4L12.2 7H0V9H12.2L6.6 14.6L8 16L16 8L8 0Z" fill="white"/>
+          </svg>
+        </a>
       </div>
-      <div class="find-solution__item fade-in-up">
-        <img src="{{settings.second_section_item3_img}}" alt="image">
-        <a href="{{settings.second_section_item3_link}}"><h5>{{settings.second_section_item3_heading}}</h5></a>
-        <p>{{settings.second_section_item3_subtitle}}</p>
-      </div>
-
     </div>
   </div>
 </section>
+{{/if}}
 
 {{!-- Categories Section --}}
 <section class="categories">

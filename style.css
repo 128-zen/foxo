@@ -1840,109 +1840,93 @@ footer a:hover {
 /* Find Solution */
 
 .find-solution {
-  position: relative;
+
 }
 
-.find-solution .container{
-  position: relative;
-  z-index: 2;
-  padding-bottom: 220px;
-}
-
-.find-solution__information {
-  padding: 30px;
-  border: 1px solid rgba(64, 73, 107, 0.12);
-  border-radius: 10px;
-  margin-bottom: 120px;
-  background-color: $background1_color;
-}
-
-.find-solution__information > div {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+.find-solution h2 {
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.find-solution__information > div p {
-  font-size: 20px;
-}
-
-.find-solution__information svg path {
-  fill: $background4_color;
+.find-solution .container > p {
+  text-align: center;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
 .find-solution__items {
   display: flex;
+  gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 60px;
+  margin-top: 60px;
 }
 
 .find-solution__item {
-  width: calc(33.3% - 40px);
-  display: flex;
-  flex-direction: column;
+  width: calc(50% - 15px);
+  padding: 40px 24px;
+  border-radius: 20px;
+  text-align: left;
   align-items: center;
-  text-align: center;
+  border: 1px solid $background2_color;
+  background-color: $background1_color;
 }
 
-.find-solution__item img {
-  max-width: 50px;
-  max-height: 50px;
-}
-
-.find-solution__item a {
-  display: block;
-  margin: 20px 0;
-  color: $headings_primary;
-}
-
-.find-solution__item a:hover {
-  color: $hover_link_color;
+.find-solution__item h4 {
+  transition: all .3s ease;
+  color: $headings_secondary;
+  margin-bottom: 20px;
 }
 
 .find-solution__item p {
-  font-size: 18px;
-  padding-left: 15px;
-  padding-right: 15px;
+  color: $body_secondary;
+  margin-bottom: 40px;
 }
 
-@media (max-width: 1279px) {
-  .find-solution .container {
-    padding-bottom: 200px;
-  }
-  .find-solution__information {
-    margin-bottom: 100px;
-  }
+.find-solution__item a {
+  font-weight: 700;
+  display: flex;
+  gap: 8px;
+  width: fit-content;
+  align-items: center;
 }
+
+.find-solution__item a:first-of-type {
+  display: block;
+}
+
+.find-solution__item a{
+  color: $headings_secondary;
+}
+
+.find-solution__item a:hover, .find-solution__item a:hover h4 {
+  color: $hover_link_color2;
+}
+
+.find-solution__item a:hover svg {
+  transform: rotate(45deg);
+}
+
+.find-solution__item a:hover path{
+  fill: $hover_link_color2;
+}
+
 
 @media (max-width: 1023px) {
-  .find-solution .container {
-    padding-bottom: 180px;
+  .find-solution__items {
+    margin-top: 40px;
   }
   .find-solution__item {
-    width: calc(50% - 37.5px);
-  }
-  .find-solution__information {
-    margin-bottom: 80px;
+    
   }
 }
-
 @media (max-width: 767px) {
-  .find-solution .container {
-    padding-bottom: 160px;
+  .find-solution__items {
+    gap: 20px;
   }
   .find-solution__item {
-    max-width: 370px;
     width: 100%;
-  }
-  .find-solution__item p {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .find-solution__information {
-    margin-bottom: 60px;
+    max-width: 470px;
   }
 }
 
