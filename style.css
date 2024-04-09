@@ -1905,9 +1905,7 @@ footer a:hover {
 }
 
 .contact-us .container {
-  position: relative;
-  z-index: 2;
-  padding-bottom: 360px;
+  margin-top: -120px;
 }
 
 .contact-us h2 {
@@ -1939,12 +1937,12 @@ footer a:hover {
 
 @media (max-width: 1279px) {
   .contact-us .container {
-    padding-bottom: 340px;
+    
   }
 }
 @media (max-width: 1023px) {
   .contact-us .container {
-    padding-bottom: 320px;
+    
   }
   .contact-us h2 {
     margin-bottom: 40px;
@@ -1955,7 +1953,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .contact-us .container {
-    padding-bottom: 300px;
+    
   }
   .contact-us__items {
     gap: 20px;
