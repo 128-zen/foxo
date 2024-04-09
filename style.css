@@ -1864,7 +1864,7 @@ footer a:hover {
 
 .find-solution__item {
   width: calc(50% - 15px);
-  padding: 40px 24px;
+  padding: 30px;
   border-radius: 20px;
   text-align: left;
   align-items: center;
@@ -1873,14 +1873,11 @@ footer a:hover {
 }
 
 .find-solution__item h4 {
-  transition: all .3s ease;
-  color: $headings_secondary;
   margin-bottom: 20px;
 }
 
 .find-solution__item p {
-  color: $body_secondary;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .find-solution__item a {
