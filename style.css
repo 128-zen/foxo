@@ -678,10 +678,12 @@ ul {
 }
 .header__lists a {
   line-height: 1.1;
+  padding: 6px 14px;
+  border-radius: 8px;
+  background-color: transparent;
 }
 
 .header__lists a:hover {
-  padding: 6px 14px;
   font-weight: 600;
   background-color: $background1_color;
 }
