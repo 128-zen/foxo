@@ -1388,7 +1388,6 @@ footer a:hover {
   margin-top: -81px;
   padding: 181px 0 220px;
   overflow: hidden;
-  border-bottom: 1px solid rgba(64, 73, 107, 0.12);
   background-color: $background1_color;
   position: relative;
 }
@@ -1783,20 +1782,28 @@ footer a:hover {
   width: calc(33.3% - 20px);
   border-radius: 10px;
   text-align: center;
-  background-color: $background1_color;
+  background-color: $introduction_background1_color;
+}
+
+.introduction__item:nth-of-type(2) {
+  background-color: $introduction_background2_color;
+}
+
+.introduction__item:nth-of-type(3) {
+  background-color: $introduction_background3_color;
 }
 
 .introduction__item > div {
   font-size: 0;
-  padding: 13px;
+  padding: 9px;
   border-radius: 50px;
   margin-bottom: 20px;
-  background-color: $button_background_color;
+  background-color: $background2_color;
 }
 
 .introduction__item img {
-  width: 34px;
-  height: 34px;
+  width: 22px;
+  height: 22px;
 }
 
 .introduction__item a:hover {

@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -407,6 +407,13 @@
           "label": "Item 1 Image"
         },
         {
+          "identifier": "introduction_background1_color",
+          "type": "color",
+          "description": "Choose the color for item 1 background",
+          "label": "Item 1 Background Color",
+          "value": "#F6EBD3"
+        },
+        {
           "identifier": "introduction_link1",
           "type": "text",
           "description": "Insert link",
@@ -434,6 +441,13 @@
           "label": "Item 2 Image"
         },
         {
+          "identifier": "introduction_background2_color",
+          "type": "color",
+          "description": "Choose the color for item 2 background",
+          "label": "Item 2 Background Color",
+          "value": "#D8C4D4"
+        },
+        {
           "identifier": "introduction_link2",
           "type": "text",
           "description": "Insert phone number",
@@ -459,6 +473,13 @@
           "type": "file",
           "description": "Insert image",
           "label": "Item 3 Image"
+        },
+        {
+          "identifier": "introduction_background3_color",
+          "type": "color",
+          "description": "Choose the color for item 3 background",
+          "label": "Item 3 Background Color",
+          "value": "#B8DDEC"
         },
         {
           "identifier": "introduction_link3",
