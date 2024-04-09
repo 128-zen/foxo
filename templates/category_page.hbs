@@ -1,0 +1,87 @@
+<section class="category-page">
+
+  {{!-- Top Banner Section --}}
+  <section id="main-content" class="hero">
+    <div class="container">
+      <h1 class="hero-text fade-in-up">{{settings.category_heading}}</h1>
+      {{#if settings.show_category_subtitle}}
+        <p class="p-large fade-in-up">{{settings.category_subtitle}}</p>
+      {{/if}}
+      <div class="hero-inner fade-in-up">
+        <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12"
+            class="search-icon" aria-hidden="true">
+          <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor" />
+          <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5" />
+        </svg>
+        {{search instant=settings.instant_search class='search search-full'}}
+      </div>
+    </div>
+    <svg width="375" height="356" viewBox="0 0 375 356" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clip-path="url(#clip0_3317_153)">
+        <rect x="184.436" y="487" width="269" height="379" rx="9.5" transform="rotate(180 184.436 487)" stroke="#40496B" stroke-opacity="0.12"/>
+        <rect x="304.436" y="387" width="269" height="379" rx="9.5" transform="rotate(180 304.436 387)" stroke="#40496B" stroke-opacity="0.12"/>
+        <path d="M107.5 7.5C110.392 6.46837 112.5 3.68106 112.5 0.439453C112.5 0.196553 112.303 0 112.061 0C108.819 0 106.032 2.10817 105 4.99986C103.968 2.10817 101.181 0 97.9395 0C97.6966 0 97.5 0.196553 97.5 0.439453C97.5 3.68106 99.6082 6.46837 102.5 7.5C99.6082 8.53163 97.5 11.3189 97.5 14.5605C97.5 14.8034 97.6966 15 97.9395 15C101.181 15 103.968 12.8918 105 10.0001C106.032 12.8918 108.819 15 112.061 15C112.303 15 112.5 14.8034 112.5 14.5605C112.5 11.3189 110.392 8.53163 107.5 7.5Z" fill="#161A26"/>
+        <path d="M189.5 212.5C195.284 210.437 199.5 204.862 199.5 198.379C199.5 197.893 199.107 197.5 198.621 197.5C192.138 197.5 186.563 201.716 184.5 207.5C182.437 201.716 176.862 197.5 170.379 197.5C169.893 197.5 169.5 197.893 169.5 198.379C169.5 204.862 173.716 210.437 179.5 212.5C173.716 214.563 169.5 220.138 169.5 226.621C169.5 227.107 169.893 227.5 170.379 227.5C176.862 227.5 182.437 223.284 184.5 217.5C186.563 223.284 192.138 227.5 198.621 227.5C199.107 227.5 199.5 227.107 199.5 226.621C199.5 220.138 195.284 214.563 189.5 212.5Z" fill="#4537E6"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_3317_153">
+          <rect width="375" height="356" fill="white" transform="matrix(-1 0 0 -1 375 356)"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <svg width="375" height="356" viewBox="0 0 375 356" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_3317_160)">
+      <rect x="0.5" y="-0.5" width="269" height="379" rx="9.5" transform="matrix(1 0 0 -1 190.064 486.5)" stroke="#40496B" stroke-opacity="0.12"/>
+      <rect x="0.5" y="-0.5" width="269" height="379" rx="9.5" transform="matrix(1 0 0 -1 70.0645 386.5)" stroke="#40496B" stroke-opacity="0.12"/>
+      <path d="M267.5 7.5C264.608 6.46837 262.5 3.68106 262.5 0.439453C262.5 0.196553 262.697 0 262.939 0C266.181 0 268.968 2.10817 270 4.99986C271.032 2.10817 273.819 0 277.061 0C277.303 0 277.5 0.196553 277.5 0.439453C277.5 3.68106 275.392 6.46837 272.5 7.5C275.392 8.53163 277.5 11.3189 277.5 14.5605C277.5 14.8034 277.303 15 277.061 15C273.819 15 271.032 12.8918 270 10.0001C268.968 12.8918 266.181 15 262.939 15C262.697 15 262.5 14.8034 262.5 14.5605C262.5 11.3189 264.608 8.53163 267.5 7.5Z" fill="#161A26"/>
+      <path d="M185.5 212.5C179.716 210.437 175.5 204.862 175.5 198.379C175.5 197.893 175.893 197.5 176.379 197.5C182.862 197.5 188.437 201.716 190.5 207.5C192.563 201.716 198.138 197.5 204.621 197.5C205.107 197.5 205.5 197.893 205.5 198.379C205.5 204.862 201.284 210.437 195.5 212.5C201.284 214.563 205.5 220.138 205.5 226.621C205.5 227.107 205.107 227.5 204.621 227.5C198.138 227.5 192.563 223.284 190.5 217.5C188.437 223.284 182.862 227.5 176.379 227.5C175.893 227.5 175.5 227.107 175.5 226.621C175.5 220.138 179.716 214.563 185.5 212.5Z" fill="#4537E6"/>
+    </g>
+      <defs>
+        <clipPath id="clip0_3317_160">
+          <rect width="375" height="356" fill="white" transform="matrix(1 0 0 -1 0 356)"/>
+        </clipPath>
+      </defs>
+    </svg>
+  </section>
+
+  {{!-- Main Content --}}
+  <section class="category-page__content container section">
+    <h2 class="fade-in-up">{{category.name}}</h2>
+    {{#if category.description}}
+      <p class="fade-in-up">{{category.description}}</p>
+    {{/if}}
+    <div class="category-page__sections">
+      {{#each sections}}
+      <div class="category-page__section fade-in-up">
+        <div class="category-page__section-heading">
+          <h3>{{name}}</h3>
+          <a href="{{url}}">{{t 'show_all_articles'}} 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M4.11132 3.10911L3.96161 2.96505L4.11127 2.82094L5.37299 1.60594L5.51163 1.47243L5.65036 1.60585L11.8886 7.60585L12.0385 7.75L11.8886 7.89415L5.65036 13.8941L5.51163 14.0276L5.37299 13.8941L4.11127 12.6791L3.96161 12.5349L4.11132 12.3909L8.93421 7.75L4.11132 3.10911Z" fill="#29335C" stroke="#29335C" stroke-width="0.4"/>
+            </svg>
+          </a>
+        </div>
+        <div class="category-page__articles">
+          {{#each articles}}
+            <div class="category-page__article">
+              <div>
+                <a href="{{url}}"><h6>{{title}}</h6></a>
+                <div>{{body}}</div>
+              </div>
+              <a class="category-page__article-btn" href="{{url}}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.5 0.5L5.45 1.55L9.65 5.75H0.5V7.25H9.65L5.45 11.45L6.5 12.5L12.5 6.5L6.5 0.5Z" fill="#161A26"/>
+                </svg>
+              </a>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+</section>
+
+

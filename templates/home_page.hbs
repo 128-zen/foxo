@@ -1,0 +1,181 @@
+{{!-- Top Banner Section --}}
+<section id="main-content" class="hero">
+  <div class="container">
+    <div class="hero__content">
+      <h1 class="hero-text fade-in-up">{{settings.hero_heading}}</h1>
+      {{#if settings.show_hero_text}}
+        <p class="p-large fade-in-up">{{settings.hero_text}}</p>
+      {{/if}}
+      <div class="hero-inner fade-in-up">
+        <h2 class="visibility-hidden">{{ t 'search' }}</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12"
+          class="search-icon" aria-hidden="true">
+          <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor" />
+          <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5" />
+        </svg>
+        {{search instant=settings.instant_search class='search search-full'}}
+      </div>
+      <div class="popular-keywords fade-in-up" data-keywords="{{settings.popular_keywords}}">
+        <p>{{settings.popular_keywords_description}}</p>
+      </div>
+    </div>
+  </div>
+  <svg width="375" height="560" viewBox="0 0 375 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_3305_972)">
+      <rect x="184.436" y="559" width="269" height="379" rx="9.5" transform="rotate(180 184.436 559)" stroke="#40496B" stroke-opacity="0.12"/>
+      <rect x="304.436" y="459" width="269" height="379" rx="9.5" transform="rotate(180 304.436 459)" stroke="#40496B" stroke-opacity="0.12"/>
+      <path d="M107.5 79.5C110.392 78.4684 112.5 75.6811 112.5 72.4395C112.5 72.1966 112.303 72 112.061 72C108.819 72 106.032 74.1082 105 76.9999C103.968 74.1082 101.181 72 97.9395 72C97.6966 72 97.5 72.1966 97.5 72.4395C97.5 75.6811 99.6082 78.4684 102.5 79.5C99.6082 80.5316 97.5 83.3189 97.5 86.5605C97.5 86.8034 97.6966 87 97.9395 87C101.181 87 103.968 84.8918 105 82.0001C106.032 84.8918 108.819 87 112.061 87C112.303 87 112.5 86.8034 112.5 86.5605C112.5 83.3189 110.392 80.5316 107.5 79.5Z" fill="#161A26"/>
+      <rect x="374.436" y="379.5" width="269" height="379" rx="9.5" transform="rotate(180 374.436 379.5)" stroke="#40496B" stroke-opacity="0.12"/>
+      <path d="M189.5 284.5C195.284 282.437 199.5 276.862 199.5 270.379C199.5 269.893 199.107 269.5 198.621 269.5C192.138 269.5 186.563 273.716 184.5 279.5C182.437 273.716 176.862 269.5 170.379 269.5C169.893 269.5 169.5 269.893 169.5 270.379C169.5 276.862 173.716 282.437 179.5 284.5C173.716 286.563 169.5 292.138 169.5 298.621C169.5 299.107 169.893 299.5 170.379 299.5C176.862 299.5 182.437 295.284 184.5 289.5C186.563 295.284 192.138 299.5 198.621 299.5C199.107 299.5 199.5 299.107 199.5 298.621C199.5 292.138 195.284 286.563 189.5 284.5Z" fill="#4537E6"/>
+      <path d="M307.5 457C310.392 455.968 312.5 453.181 312.5 449.939C312.5 449.697 312.303 449.5 312.061 449.5C308.819 449.5 306.032 451.608 305 454.5C303.968 451.608 301.181 449.5 297.939 449.5C297.697 449.5 297.5 449.697 297.5 449.939C297.5 453.181 299.608 455.968 302.5 457C299.608 458.032 297.5 460.819 297.5 464.061C297.5 464.303 297.697 464.5 297.939 464.5C301.181 464.5 303.968 462.392 305 459.5C306.032 462.392 308.819 464.5 312.061 464.5C312.303 464.5 312.5 464.303 312.5 464.061C312.5 460.819 310.392 458.032 307.5 457Z" fill="#161A26"/>
+    </g>
+    <defs>
+      <clipPath id="clip0_3305_972">
+        <rect width="375" height="560" fill="white" transform="matrix(-1 0 0 -1 375 560)"/>
+      </clipPath>
+    </defs>
+  </svg>
+  <svg width="375" height="560" viewBox="0 0 375 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_3307_1232)">
+      <rect x="0.5" y="-0.5" width="269" height="379" rx="9.5" transform="matrix(1 0 0 -1 190.064 558.5)" stroke="#40496B" stroke-opacity="0.12"/>
+      <rect x="0.5" y="-0.5" width="269" height="379" rx="9.5" transform="matrix(1 0 0 -1 70.0645 458.5)" stroke="#40496B" stroke-opacity="0.12"/>
+      <path d="M267.5 79.5C264.608 78.4684 262.5 75.6811 262.5 72.4395C262.5 72.1966 262.697 72 262.939 72C266.181 72 268.968 74.1082 270 76.9999C271.032 74.1082 273.819 72 277.061 72C277.303 72 277.5 72.1966 277.5 72.4395C277.5 75.6811 275.392 78.4684 272.5 79.5C275.392 80.5316 277.5 83.3189 277.5 86.5605C277.5 86.8034 277.303 87 277.061 87C273.819 87 271.032 84.8918 270 82.0001C268.968 84.8918 266.181 87 262.939 87C262.697 87 262.5 86.8034 262.5 86.5605C262.5 83.3189 264.608 80.5316 267.5 79.5Z" fill="#161A26"/>
+      <rect x="0.5" y="-0.5" width="269" height="379" rx="9.5" transform="matrix(1 0 0 -1 0.0644531 379)" stroke="#40496B" stroke-opacity="0.12"/>
+      <path d="M185.5 284.5C179.716 282.437 175.5 276.862 175.5 270.379C175.5 269.893 175.893 269.5 176.379 269.5C182.862 269.5 188.437 273.716 190.5 279.5C192.563 273.716 198.138 269.5 204.621 269.5C205.107 269.5 205.5 269.893 205.5 270.379C205.5 276.862 201.284 282.437 195.5 284.5C201.284 286.563 205.5 292.138 205.5 298.621C205.5 299.107 205.107 299.5 204.621 299.5C198.138 299.5 192.563 295.284 190.5 289.5C188.437 295.284 182.862 299.5 176.379 299.5C175.893 299.5 175.5 299.107 175.5 298.621C175.5 292.138 179.716 286.563 185.5 284.5Z" fill="#4537E6"/>
+      <path d="M67.4999 457C64.6082 455.968 62.5 453.181 62.5 449.939C62.5 449.697 62.6966 449.5 62.9395 449.5C66.1811 449.5 68.9684 451.608 70 454.5C71.0316 451.608 73.8189 449.5 77.0605 449.5C77.3034 449.5 77.5 449.697 77.5 449.939C77.5 453.181 75.3918 455.968 72.5001 457C75.3918 458.032 77.5 460.819 77.5 464.061C77.5 464.303 77.3034 464.5 77.0605 464.5C73.8189 464.5 71.0316 462.392 70 459.5C68.9684 462.392 66.1811 464.5 62.9395 464.5C62.6966 464.5 62.5 464.303 62.5 464.061C62.5 460.819 64.6082 458.032 67.4999 457Z" fill="#161A26"/>
+    </g>
+    <defs>
+      <clipPath id="clip0_3307_1232">
+        <rect width="375" height="560" fill="white" transform="matrix(1 0 0 -1 0 560)"/>
+      </clipPath>
+    </defs>
+  </svg>
+</section>
+
+{{!-- Find Solution Section --}}
+<section class="find-solution">
+  <div class="lines">
+    <div></div>
+  </div>
+  <div class="container section">
+    {{#if settings.show_second_section_info}}
+      <div class="find-solution__information fade-in-up">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <g clip-path="url(#clip0_3307_1195)">
+              <path d="M12 0C5.40891 0 0 5.40891 0 12C0 18.5911 5.40891 24 12 24C18.5911 24 24 18.5911 24 12C24 5.40891 18.5911 0 12 0ZM13.4062 17.625C13.4062 18.4002 12.7752 19.0312 12 19.0312C11.2248 19.0312 10.5938 18.4002 10.5938 17.625V10.5938C10.5938 9.81853 11.2248 9.1875 12 9.1875C12.7752 9.1875 13.4062 9.81853 13.4062 10.5938V17.625ZM12 7.78125C11.2248 7.78125 10.5938 7.15022 10.5938 6.375C10.5938 5.59978 11.2248 4.96875 12 4.96875C12.7752 4.96875 13.4062 5.59978 13.4062 6.375C13.4062 7.15022 12.7752 7.78125 12 7.78125Z" fill="#4537E6"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_3307_1195">
+                <rect width="24" height="24" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+          <p>{{settings.second_section_info_heading}}</p>
+        </div>
+        <p class="p-small">{{settings.second_section_info_subtitle}}</p>
+      </div>
+    {{/if}}
+    <div class="find-solution__items">
+      <div class="find-solution__item fade-in-up">
+        <img src="{{settings.second_section_item1_img}}" alt="image">
+        <a href="{{settings.second_section_item1_link}}"><h5>{{settings.second_section_item1_heading}}</h5></a>
+        <p>{{settings.second_section_item1_subtitle}}</p>
+      </div>
+      <div class="find-solution__item fade-in-up">
+        <img src="{{settings.second_section_item2_img}}" alt="image">
+        <a href="{{settings.second_section_item2_link}}"><h5>{{settings.second_section_item2_heading}}</h5></a>
+        <p>{{settings.second_section_item2_subtitle}}</p>
+      </div>
+      <div class="find-solution__item fade-in-up">
+        <img src="{{settings.second_section_item3_img}}" alt="image">
+        <a href="{{settings.second_section_item3_link}}"><h5>{{settings.second_section_item3_heading}}</h5></a>
+        <p>{{settings.second_section_item3_subtitle}}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{!-- Categories Section --}}
+<section class="categories">
+  <div class="container">
+    <div class="categories__items">
+      {{#each categories}}
+        <div class="categories__item fade-in-up">
+          <h4>{{name}}</h4>
+          {{#if description}}
+            <p class="p-small">{{description}}</p>
+          {{/if}}
+          <a href="{{url}}">
+            {{t 'see_all_sections'}}
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L6.6 1.4L12.2 7H0V9H12.2L6.6 14.6L8 16L16 8L8 0Z" fill="white"/>
+            </svg>
+          </a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+{{!-- Recent activity --}}
+{{#if help_center.community_enabled}}
+  <section class="homepage-activity activity section">
+    <div class="container fade-in-up">
+      {{recent_activity scope='community'}}
+    </div>
+  </section>
+{{/if}}
+
+{{!-- Promoted Articles --}}
+{{#if settings.show_fourth_section}}
+  {{#if promoted_articles}}
+    <section class="promoted-articles">
+      <div class="lines">
+        <div></div>
+      </div>
+      <div class="container section">
+        <div class="promoted-articles__head">
+          <h2 class="fade-in-up">{{settings.fourth_section_heading}}</h2>
+          <div class="fade-in-up">
+            <a class="button button-primary" href="{{settings.fourth_section_button_link}}">{{settings.fourth_section_button}}</a>
+          </div>
+        </div>
+        <div class="promoted-articles__items">
+          {{#each promoted_articles}}
+            <div class="promoted-articles__item fade-in-up">
+              <a href="{{url}}">{{title}}</a>
+            </div>
+          {{/each}}
+        </div>
+      </div>
+
+    </section>
+  {{/if}}
+{{/if}}
+
+{{!-- More Resources --}}
+<section class="contact-us">
+  <div class="lines">
+    <div></div>
+  </div>
+  <div class="container section">
+    <h2 class="fade-in-up">{{settings.fifth_section_heading}}</h2>
+    <div class="contact-us__items">
+      <div class="contact-us__item fade-in-up">
+        <a href="{{settings.fifth_section_link1}}"><h4>{{settings.fifth_section_heading1}}</h4></a>
+        <p>{{settings.fifth_section_subtitle1}}</p>
+      </div>
+      <div class="contact-us__item fade-in-up">
+        <a href="tel:{{settings.fifth_section_link2}}"><h4>{{settings.fifth_section_heading2}}</h4></a>
+        <p>{{settings.fifth_section_subtitle2}}</p>
+      </div>
+      <div class="contact-us__item fade-in-up">
+        <a href="{{settings.fifth_section_link3}}"><h4>{{settings.fifth_section_heading3}}</h4></a>
+        <p>{{settings.fifth_section_subtitle3}}</p>
+      </div>
+    </div>
+  </div>
+
+</section>
