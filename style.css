@@ -1494,18 +1494,21 @@ footer a:hover {
   border: 1px solid rgba(64, 73, 107, 0.12);
 }
 .hero .search input[type=submit], .error-page .search input[type=submit]{
-  padding: 14px 34px;
+  position: absolute;
+  right: 0;
+  padding: 8px 28px;
   border-radius: 8px;
-  margin-left: 15px;
+  top: 50%;
+  transform: translate(-4px, -50%);
   font-size: 18px;
-  font-weight: 500;
-  line-height: 120%; /* 21.6px */
+  font-weight: 600;
+  line-height: 120%;
   letter-spacing: 0.63px;
   cursor: pointer;
   transition: all .3s ease;
-  border: 1px solid $cta_color;
-  background-color: $cta_color;
-  color: $text_secondary;
+  border: 1px solid $button_background_color;
+  background-color: $button_background_color;
+  color: $headings_primary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
   background-color: $background4_color;
