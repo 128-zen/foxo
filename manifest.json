@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -560,81 +560,6 @@
       ]
     },
     {
-      "label": "Homepage Contact us Section",
-      "variables": [
-        {
-          "identifier": "fifth_section_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Section Heading",
-          "value": "Contact us"
-        },
-        {
-          "identifier": "fifth_section_link1",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 1 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "fifth_section_heading1",
-          "type": "text",
-          "description": "Enter heading",
-          "label": "Item 1 Heading",
-          "value": "Message us"
-        },
-        {
-          "identifier": "fifth_section_subtitle1",
-          "type": "text",
-          "description": "Enter subtitle",
-          "label": "Item 1 Subtitle",
-          "value": "Start a conversation with our team and get the answers you need."
-        },
-        {
-          "identifier": "fifth_section_link2",
-          "type": "text",
-          "description": "Insert phone number",
-          "label": "Item 2 Phone Number",
-          "value": "#"
-        },
-        {
-          "identifier": "fifth_section_heading2",
-          "type": "text",
-          "description": "Enter heading",
-          "label": "Item 2 Heading",
-          "value": "Call us"
-        },
-        {
-          "identifier": "fifth_section_subtitle2",
-          "type": "text",
-          "description": "Enter subtitle",
-          "label": "Item 2 Subtitle",
-          "value": "Give us a call at 8:30am - 5:30pm PST Monday to Friday."
-        },
-        {
-          "identifier": "fifth_section_link3",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 3 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "fifth_section_heading3",
-          "type": "text",
-          "description": "Enter heading",
-          "label": "Item 3 Heading",
-          "value": "Follow us"
-        },
-        {
-          "identifier": "fifth_section_subtitle3",
-          "type": "text",
-          "description": "Enter subtitle",
-          "label": "Item 3 Subtitle",
-          "value": "Stay up to date with the latest news and information."
-        }
-      ]
-    },
-    {
       "label": "Category Page",
       "variables": [
         {
@@ -773,28 +698,109 @@
       "label": "Footer",
       "variables": [
         {
-          "identifier": "contact_us_heading",
+          "identifier": "contact_us_img1",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 1 Image"
+        },
+        {
+          "identifier": "contact_us_link1",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 1 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "contact_us_heading1",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 1 Heading",
+          "value": "Message us"
+        },
+        {
+          "identifier": "contact_us_subtitle1",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 1 Subtitle",
+          "value": "Start a conversation with our team and get the answers you need."
+        },
+        {
+          "identifier": "contact_us_img2",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 2 Image"
+        },
+        {
+          "identifier": "contact_us_link2",
+          "type": "text",
+          "description": "Insert phone number",
+          "label": "Item 2 Phone Number",
+          "value": "#"
+        },
+        {
+          "identifier": "contact_us_heading2",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 2 Heading",
+          "value": "Call us"
+        },
+        {
+          "identifier": "contact_us_subtitle2",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 2 Subtitle",
+          "value": "Give us a call at 8:30am - 5:30pm PST Monday to Friday."
+        },
+        {
+          "identifier": "contact_us_img3",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 3 Image"
+        },
+        {
+          "identifier": "contact_us_link3",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 3 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "contact_us_heading3",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 3 Heading",
+          "value": "Follow us"
+        },
+        {
+          "identifier": "contact_us_subtitle3",
+          "type": "text",
+          "description": "Enter subtitle",
+          "label": "Item 3 Subtitle",
+          "value": "Stay up to date with the latest news and information."
+        },
+        {
+          "identifier": "submit_request_heading",
           "type": "text",
           "description": "Enter heading",
           "label": "Contact us Heading",
           "value": "Can't find what you're looking for?"
         },
         {
-          "identifier": "contact_us_text",
+          "identifier": "submit_request_text",
           "type": "text",
           "description": "Enter description",
           "label": "Contact us Description",
           "value": "Our customer care team is here for you!"
         },
         {
-          "identifier": "contact_us_link_text",
+          "identifier": "submit_request_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Contact us Link Text",
           "value": "Submit A Request"
         },
         {
-          "identifier": "contact_us_link",
+          "identifier": "submit_request_link",
           "type": "text",
           "description": "Insert link",
           "label": "Contact us Link",
