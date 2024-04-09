@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -88,11 +88,11 @@
           "type": "list",
           "description": "heading_font_description",
           "label": "heading_font_label",
-          "value": "Inter, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "value": "Onest, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
             {
-              "label": "Inter",
-              "value": "Inter, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+              "label": "Onest",
+              "value": "Onest, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
               "label": "System",
@@ -165,11 +165,11 @@
           "type": "list",
           "description": "text_font_description",
           "label": "text_font_label",
-          "value": "Inter, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
+          "value": "Onest, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
           "options": [
             {
-              "label": "Inter",
-              "value": "Inter, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+              "label": "Onest",
+              "value": "Onest, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
             },
             {
               "label": "System",
