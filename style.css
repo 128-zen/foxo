@@ -2014,10 +2014,13 @@ footer a:hover {
 .faq__item div {
   display: flex;
   gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .faq__item span {
-  padding: 10px 9.5px;
+  font-size: 0;
+  padding: 10px 9px;
   border-radius: 15px;
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
