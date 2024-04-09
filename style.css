@@ -2063,7 +2063,6 @@ footer a:hover {
   overflow: hidden;
   opacity: 0;
   transition: all 0.2s linear;
-  color: $body_secondary;
 }
 
 .faq__item.open p {
@@ -2083,11 +2082,6 @@ footer a:hover {
   .faq {
     padding-bottom: 160px;
   }
-  .faq__head {
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 40px;
-  }
 }
 @media (max-width: 767px) {
   .faq {
@@ -2095,13 +2089,11 @@ footer a:hover {
   }
   .faq__items {
     gap: 20px;
+    padding: 30px;
   }
   .faq__item {
     padding: 20px;
     width: 100%;
-  }
-  .faq__item h6::before {
-    right: -10px
   }
 }
 
