@@ -2737,7 +2737,7 @@ footer a:hover {
 
 /***** Section pages *****/
 .section-page {
-  padding-top: 80px;
+  padding-top: 161px;
 }
 
 .section-page>.container {
@@ -2941,7 +2941,7 @@ footer a:hover {
 
 @media (max-width: 767px) {
   .section-page {
-    padding-top: 60px
+    padding-top: 141px
   }
   .section-page>.container {
     flex-direction: column-reverse;
