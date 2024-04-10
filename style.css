@@ -2623,11 +2623,10 @@ footer a:hover {
   flex-wrap: wrap;
 }
 .category-page__article {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
+  padding: 30px;
+  border-radius: 8px;
   width: calc(33.3% - 20px);
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .category-page__article:nth-child(n+7) {
