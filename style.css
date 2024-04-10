@@ -1881,6 +1881,7 @@ footer a:hover {
 
 .find-solution__item div a {
   position: absolute;
+  z-index: 1;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -2646,6 +2647,7 @@ footer a:hover {
 
 .category-page__article > div:last-of-type a {
   position: absolute;
+  z-index: 1;
   left: 0;
   bottom: 0;
   width: 100%;
