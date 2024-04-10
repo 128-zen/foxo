@@ -2563,18 +2563,6 @@ footer a:hover {
   align-items: center;
   gap: 0;
 }
-.category-page .hero > svg:nth-of-type(1) {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  top: auto;
-}
-.category-page .hero > svg:nth-of-type(2) {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  top: auto;
-}
 .category-page .hero h1 {
   max-width: 900px;
   text-align: center;
@@ -2634,9 +2622,9 @@ footer a:hover {
 }
 
 .category-page__article > div:first-of-type {
-  max-height: 52px;
+  max-height: 67px;
   overflow: hidden;
-  margin-top: 20px;
+  margin: 20px 0 30px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.4;
@@ -2679,6 +2667,18 @@ footer a:hover {
   color: $hover_link_color;
 }
 
+.category-page__article > div:last-of-type:hover span {
+  background-color: $background3_color;
+}
+
+.category-page__article > div:last-of-type:hover svg {
+  transform: rotate(45deg);
+}
+
+.category-page__article > div:last-of-type:hover path{
+  stroke: $text_secondary;
+}
+
 .category-page__article-btn, .section-page__article-btn {
   
 }
@@ -2687,9 +2687,6 @@ footer a:hover {
   
 }
 
-.category-page__article-btn:hover path, .section-page__article-btn:hover path {
-  fill: $text_secondary;
-}
 @media(max-width: 1279px) {
   .category-page__content {
     padding-top: 100px;
