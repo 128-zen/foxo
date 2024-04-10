@@ -2127,6 +2127,9 @@ footer a:hover {
     flex-direction: column;
     gap: 20px;
   }
+  .explore-topics > img:nth-of-type(1), .explore-topics > img:nth-of-type(2) {
+    display: none;
+  }
   .explore-topics__items {
     justify-content: center;
   }
