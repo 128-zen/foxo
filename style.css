@@ -2050,16 +2050,23 @@ footer a:hover {
   background-color: $background1_color;
 }
 
+.explore-topics .container {
+  position: relative;
+  z-index: 1;
+}
+
 .explore-topics > img:nth-of-type(1) {
   position: absolute;
   left: 0;
   bottom: 0;
+  height: 100%;
 }
 
 .explore-topics > img:nth-of-type(2) {
   position: absolute;
   right: 0;
   bottom: 0;
+  height: 100%;
 }
 
 .explore-topics__head {
