@@ -1953,14 +1953,14 @@ footer a:hover {
 }
 .videos__items {
   display: flex;
-  gap: 30px;
+  gap: 60px;
   margin-top: 50px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .videos__item {
-  width: calc(33.3% - 20px);
+  width: calc(33.3% - 40px);
   padding-bottom: 40px;
   background-color: var(--background1-color);
 }
@@ -1977,27 +1977,25 @@ footer a:hover {
   object-fit: cover;
   width: 100%;
   transition: all .5s ease;
+  border-radius: 8px;
 }
 .videos__img:hover img {
   transform: scale(1.1);
 }
 .videos__img svg path {
-  fill: var(--headings-primary);
+  fill: $background3_color;
 }
 .videos__img svg circle {
-  fill: var(--background2-color);
+  fill: $button_background_color;
 }
-.videos__img svg:hover path {
-  fill: $hover_button_primary;
+.videos__img svg:hover circle {
+  fill: $button_background_color;
 }
 .videos__img svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.videos__img svg:hover circle {
-  fill: var(--cta-color);
 }
 
 .videos__item h4 {
@@ -2006,14 +2004,12 @@ footer a:hover {
   padding: 0 30px;
   cursor: pointer;
   transition: all .3s ease;
-  color: var(--headings-secondary);
 }
 .videos__item h4:hover {
-  color: var(--hover-link-color2);
+  color: $hover_link_color;
 }
 .videos__item p {
   padding: 0 30px;
-  color: var(--body-secondary);
 }
 .video-modal {
   display: none;
