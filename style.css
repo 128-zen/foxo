@@ -1865,11 +1865,10 @@ footer a:hover {
 .find-solution__item {
   width: calc(50% - 15px);
   padding: 30px;
-  border-radius: 20px;
+  border-radius: 8px;
   text-align: left;
   align-items: center;
-  border: 1px solid $background2_color;
-  background-color: $background1_color;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .find-solution__item h4 {
@@ -1886,6 +1885,23 @@ footer a:hover {
   gap: 8px;
   width: fit-content;
   align-items: center;
+}
+
+.find-solution__item div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.find-solution__item span {
+  padding: 10px 9px;
+  border-radius: 50px;
+  font-size: 0;
+  background-color: $button_background_color;
+}
+
+.find-solution__item:hover span {
+  background-color: $background3_color;
 }
 
 .find-solution__item a:hover svg {
