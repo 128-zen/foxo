@@ -2620,6 +2620,10 @@ footer a:hover {
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
+.category-page__article:hover {
+  border: 1px solid $button_background_color;
+}
+
 .category-page__article:nth-child(n+7) {
   display: none;
 }
@@ -2881,16 +2885,10 @@ footer a:hover {
 }
 
 .section-page__article {
-  display: flex;
-  gap: 40px;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
   width: 100%;
-  padding: 20px 30px;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 8px;
   transition: all .3s ease;
-  border: 1px solid rgba(64, 73, 107, 0.12);
   background-color: $background1_color;
 }
 
