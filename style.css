@@ -2691,9 +2691,7 @@ footer a:hover {
   .category-page__section-heading {
     flex-direction: column;
     gap: 10px;
-  }
-  .category-page__articles {
-    gap: 30px;
+    align-items: start;
   }
   .category-page__article {
     width: calc(50% - 15px);
@@ -2710,14 +2708,20 @@ footer a:hover {
   .category-page__content {
     text-align: center;
   }
+  .category-page__section-heading {
+    margin-bottom: 40px;
+  }
   .category-page__sections {
     text-align: left;
     padding-bottom: 120px;
+    margin-top: 40px;
   }
-  .category-page__section {
-    padding: 20px;
+  .category-page__articles {
+    justify-content: center;
+    gap: 20px;
   }
   .category-page__article {
+    max-width: 370px;
     width: 100%;
   }
 }
