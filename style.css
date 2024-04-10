@@ -1880,17 +1880,19 @@ footer a:hover {
 }
 
 .find-solution__item a {
-  font-weight: 700;
-  display: flex;
-  gap: 8px;
-  width: fit-content;
-  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .find-solution__item div {
   display: flex;
   gap: 15px;
   align-items: center;
+  font-weight: 700;
+  width: fit-content;
 }
 
 .find-solution__item span {
