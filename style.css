@@ -2886,6 +2886,7 @@ footer a:hover {
 
 .section-page__article {
   width: 100%;
+  height: 100%;
   padding: 30px;
   border-radius: 8px;
   transition: all .3s ease;
