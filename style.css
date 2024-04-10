@@ -652,8 +652,11 @@ ul {
 
 /***** Header *****/
 .header {
-  position: relative;
-  z-index: 10;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header > div {
@@ -1385,7 +1388,6 @@ footer a:hover {
 
 /***** Hero component *****/
 .hero {
-  margin-top: -81px;
   padding: 181px 0 200px;
   overflow: hidden;
   background-color: $background1_color;
@@ -2762,7 +2764,7 @@ footer a:hover {
 }
 
 .nav input[type=search]{
-  padding: 15px 20px 15px 50px;
+  padding: 14px 20px 14px 50px;
   border: 1px solid rgba(213, 218, 222, 0.8);
   border-radius: 8px;
 }
