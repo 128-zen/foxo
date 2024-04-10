@@ -2874,11 +2874,10 @@ footer a:hover {
   flex-wrap: wrap;
   padding-top: 40px;
   gap: 30px;
-  
 }
 
 .section-page__articles li {
-  width: 100%;
+  width: calc(50% - 30px);
 }
 
 .section-page__article {
