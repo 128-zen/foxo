@@ -701,53 +701,31 @@
       ]
     },
     {
-      "label": "Homepage Categories Section",
+      "label": "Homepage Explore Topics Section",
       "variables": [
         {
-          "identifier": "third_section_count_columns",
-          "type": "list",
-          "label": "Count Columns",
-          "description": "Select the count of columns",
-          "value": "2",
-          "options": [
-            {
-              "label": "2",
-              "value": "2"
-            },
-            {
-              "label": "3",
-              "value": "3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "label": "Homepage Promoted Articles Section",
-      "variables": [
-        {
-          "identifier": "show_fourth_section",
+          "identifier": "show_explore_topics",
           "type": "checkbox",
           "description": "Show section",
           "label": "Toggle Section",
           "value": true
         },
         {
-          "identifier": "fourth_section_heading",
+          "identifier": "explore_topics_heading",
           "type": "text",
           "description": "Enter section heading",
           "label": "Section Heading",
-          "value": "Promoted articles"
-        },       
+          "value": "Explore topics"
+        },
         {
-          "identifier": "fourth_section_button",
+          "identifier": "explore_topics_button",
           "type": "text",
           "description": "Enter text",
           "label": "Section Button Text",
-          "value": "View all"
+          "value": "View All"
         },
         {
-          "identifier": "fourth_section_button_link",
+          "identifier": "explore_topics_button_link",
           "type": "text",
           "description": "Insert link",
           "label": "Section Button Link",

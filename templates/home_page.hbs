@@ -143,14 +143,14 @@
 </section>
 {{/if}}
 
-{{!-- Third Section --}}
-{{#if settings.show_categories}}
+{{!-- Explore Topics Section --}}
+{{#if settings.show_explore_topics}}
 <section class="explore-topics section">
   <div class="container">
     <div class="explore-topics__head">
-      <h2 class="fade-in-up">{{settings.categories_heading}}</h2>
+      <h2 class="fade-in-up">{{settings.explore_topics_heading}}</h2>
       <div class="fade-in-up">
-        <a class="button button-primary" href="{{settings.categories_button_link}}">{{settings.categories_button}}</a>
+        <a class="button button-primary" href="{{settings.explore_topics_button_link}}">{{settings.explore_topics_button}}</a>
       </div>
     </div>
     <div class="explore-topics__items">
@@ -158,7 +158,7 @@
         {{#each sections}}
           <div class="explore-topics__item fade-in-up">
             <div>
-              <h4>{{name}}</h4>
+              <h6><a href="{{url}}">{{name}}</a></h6>
               <ul>
                 {{#each articles}}
                 <li>
