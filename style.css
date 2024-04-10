@@ -2605,7 +2605,7 @@ footer a:hover {
   flex-direction: column;
   gap: 50px;
   justify-content: center;
-  padding-bottom: 360px;
+  padding-bottom: 240px;
   margin-top: 50px;
 }
 
@@ -2722,7 +2722,7 @@ footer a:hover {
     padding-top: 100px;
   }
   .category-page__sections {
-    padding-bottom: 340px;
+    padding-bottom: 200px;
   }
 }
 @media(max-width: 1023px) {
@@ -2730,7 +2730,7 @@ footer a:hover {
     padding-top: 80px;
   }
   .category-page__sections {
-    padding-bottom: 320px;
+    padding-bottom: 160px;
   }
   .category-page__section-heading {
     flex-direction: column;
@@ -2764,7 +2764,7 @@ footer a:hover {
   }
   .category-page__sections {
     text-align: left;
-    padding-bottom: 300px;
+    padding-bottom: 120px;
   }
   .category-page__section {
     padding: 20px;
