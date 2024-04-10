@@ -1936,6 +1936,10 @@ footer a:hover {
 
 /* Videos */
 
+.videos {
+  padding-top: 0;
+}
+
 .videos__head {
   display: flex;
   justify-content: space-between;
@@ -2024,7 +2028,7 @@ footer a:hover {
   .videos__head {
     flex-direction: column;
     align-items: start;
-    gap: 40px;
+    gap: 20px;
   }
   .videos__item {
     max-width: 370px;
