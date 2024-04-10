@@ -1879,7 +1879,7 @@ footer a:hover {
   margin-bottom: 30px;
 }
 
-.find-solution__item a {
+.find-solution__item div a {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1900,6 +1900,7 @@ footer a:hover {
   padding: 10px 9px;
   border-radius: 50px;
   font-size: 0;
+  transition: all .3s ease;
   background-color: $button_background_color;
 }
 
