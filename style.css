@@ -1900,15 +1900,15 @@ footer a:hover {
   background-color: $button_background_color;
 }
 
-.find-solution__item:hover span {
+.find-solution__item div:hover span {
   background-color: $background3_color;
 }
 
-.find-solution__item a:hover svg {
+.find-solution__item div:hover svg {
   transform: rotate(45deg);
 }
 
-.find-solution__item a:hover path{
+.find-solution__item div:hover path{
   fill: $text_secondary;
 }
 
