@@ -56,7 +56,7 @@ a:hover {
   color: $hover_link_color;
 }
 
-path, svg, button, g, circle {
+path, svg, button, g, circle, stroke {
   transition: all .3s ease;
 }
 
