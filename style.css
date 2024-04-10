@@ -2085,7 +2085,14 @@ footer a:hover {
 }
 
 .explore-topics__item li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
   margin-bottom: 20px;
+}
+
+.explore-topics__item li svg {
+  width: 20px;
 }
 
 .explore-topics__item li:nth-child(3) {
