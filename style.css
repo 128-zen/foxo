@@ -2667,13 +2667,6 @@ footer a:hover {
   transition: all .3s ease;
   background-color: #B9E97D;
 }
-.category-page__article a h6 {
-  transition: all .3s ease;
-  color: $headings_primary;
-}
-.category-page__article a:hover h6 {
-  color: $hover_link_color;
-}
 
 .category-page__article > div:last-of-type:hover span, .section-page__article > div:last-of-type:hover span {
   background-color: $background3_color;
