@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.77",
+  "version": "1.0.78",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -69,7 +69,7 @@
           "type": "color",
           "description": "Choose the color for the hover state of the links.",
           "label": "Hover Link Color",
-          "value": "#B9E97D"
+          "value": "#95C841"
         }
       ]
     },

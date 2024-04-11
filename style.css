@@ -1086,11 +1086,6 @@ ul {
   height: 34px;
 }
 
-.contact-us__item a:hover {
-  text-decoration: underline;
-  color: $headings_primary;
-}
-
 .contact-us__item p {
   margin-top: 14px;
 }
@@ -1808,11 +1803,6 @@ footer a:hover {
   height: 22px;
 }
 
-.introduction__item a:hover {
-  text-decoration: underline;
-  color: $headings_primary;
-}
-
 .introduction__item p {
   margin-top: 14px;
 }
@@ -2106,11 +2096,6 @@ footer a:hover {
   gap: 15px;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.explore-topics__item li a:hover {
-  text-decoration: underline;
-  color: $headings_primary;
 }
 
 .explore-topics__item li svg {
