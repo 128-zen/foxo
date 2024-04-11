@@ -2945,8 +2945,9 @@ footer a:hover {
   .section-page__articles {
     gap: 20px;
   }
-  .section-page__article {
+  .section-page__article li {
     width: 100%;
+    max-width: 370px;
   }
 }
 
