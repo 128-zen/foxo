@@ -3303,10 +3303,7 @@ footer a:hover {
 }
 .article-votes a {
   font-size: 16px;
-  color: $hover_link_color;
-}
-.article-votes a:hover {
-  color: $headings_primary;
+  font-weight: 600;
 }
 
 .article-votes-count {
