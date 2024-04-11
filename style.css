@@ -397,7 +397,7 @@ ul {
 }
 
 /***** Buttons *****/
-.subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .article-subscribe button, .section-subscribe button, .split-button button, .article-subscribe button, .community-follow button, .comment-form-controls input[type=submit] {
+.subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .community-follow button, .section-subscribe button, .split-button button, .article-subscribe button, .community-follow button, .comment-form-controls input[type=submit] {
   background-color: transparent;
   border-radius: 8px;
   color: $text_primary;
@@ -428,10 +428,22 @@ ul {
 }
 
 
-.article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .comment-form-controls input[type=submit]:hover, .split-button button:hover {
+.community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .comment-form-controls input[type=submit]:hover, .split-button button:hover {
   background-color: $background3_color;
   border: 1px solid $background3_color;
   color: $text_secondary;
+}
+
+.article-subscribe button {
+  background-color: $background2_color;
+  color: $headings_primary;
+  border: 1px solid $headings_primary;
+}
+
+.article-subscribe button:hover {
+  background-color: $background2_color;
+  border: 1px solid $button_background_color;
+  color: $headings_primary;
 }
 
 .button-large[disabled], input[type=submit][disabled] {
@@ -3032,11 +3044,6 @@ footer a:hover {
   }
 }
 
-.article footer {
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(64, 73, 107, 0.12);
-}
-
 .article-info {
   max-width: 100%;
 }
@@ -3222,8 +3229,6 @@ footer a:hover {
   align-items: center;
   display: flex;
   justify-content: end;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(64, 73, 107, 0.12);
 }
 .article-comment-count {
   color: lighten($text_color, 20%);
@@ -3295,7 +3300,7 @@ footer a:hover {
   cursor: pointer;
   border-radius: 8px;
   background-color: transparent;
-  border: 1px solid $background1_color;
+  border: 1px solid $background3_color;
 }
 .article-vote:hover {
   background-color: $background2_color;
