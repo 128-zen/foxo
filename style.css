@@ -4179,6 +4179,11 @@ footer a:hover {
   font-size: 13px;
   text-transform: capitalize;
 }
+.striped-list-count-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 .striped-list-count-item:last-child::after {
   display: none;
 }
