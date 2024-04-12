@@ -75,8 +75,16 @@
         {{#each posts}}
           <section class="posts-item fade-in-up" role="region" aria-labelledby="title-{{id}}">
             <div class="striped-list-item {{#if featured}}post-featured{{/if}}">
-              <div>
-                <img src="{{author.avatar_url}}" alt="avatar">
+              <div class="striped-list-item-top">
+                <div>
+                  <img src="{{author.avatar_url}}" alt="avatar">
+                  {{#if editor}}
+                    <span class="meta-data">{{date edited_at timeago=true}}</span>
+                    <span class="meta-data">{{t 'edited'}}</span>
+                  {{else}}
+                    <span class="meta-data">{{date created_at timeago=true}}</span>
+                  {{/if}}
+                </div>
                 <span class="post-overview-item">
                   {{#if pinned}}
                     <span class="status-label status-label-pinned">{{t 'pinned'}}</span>
@@ -92,22 +100,10 @@
                   {{/is}}
                 </span>
               </div>
-              <span class="striped-list-info">
-                <h6>
-                  <a href="{{url}}" id="title-{{id}}" class="striped-list-title"></a>{{title}}
-                </h6>
-                <div>{{details}}</div>
-
-                <div class="meta-group">
-                  {{#link 'user_profile' class="meta-data" id=author.id}}{{author.name}}{{/link}}
-                  {{#if editor}}
-                    <span class="meta-data">{{date edited_at timeago=true}}</span>
-                    <span class="meta-data">{{t 'edited'}}</span>
-                  {{else}}
-                    <span class="meta-data">{{date created_at timeago=true}}</span>
-                  {{/if}}
-                </div>
-              </span>
+              <h6>
+                <a href="{{url}}" id="title-{{id}}" class="striped-list-title"></a>{{title}}
+              </h6>
+              <div>{{details}}</div>
 
               <div class="post-overview-count striped-list-count">
                 <span class="striped-list-count-item">
