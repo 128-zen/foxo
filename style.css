@@ -624,20 +624,20 @@ ul {
 .form footer input {
   display: block;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
   padding: 14px 34px;
   cursor: pointer;
   border-radius: 8px;
-  border: 1px solid $cta_color;
-  color: $text_secondary;
-  background-color: $cta_color;
+  border: 1px solid $$button_background_color;
+  color: $headings_primary;
+  background-color: $$button_background_color;
 }
 .form footer input:hover {
   color: $text_secondary;
-  background-color: $background4_color;
-  border: 1px solid $background4_color;
+  background-color: $background3_color;
+  border: 1px solid $background3_color;
 }
 
 .form footer a {
