@@ -75,10 +75,8 @@
         {{#each posts}}
           <section class="posts-item fade-in-up" role="region" aria-labelledby="title-{{id}}">
             <div class="striped-list-item {{#if featured}}post-featured{{/if}}">
-              <span class="striped-list-info">
-                <a href="{{url}}" id="title-{{id}}" class="striped-list-title">
-                  <h6>{{title}}</h6>
-                </a>
+              <div>
+                <img src="{{author.avatar_url}}" alt="avatar">
                 <span class="post-overview-item">
                   {{#if pinned}}
                     <span class="status-label status-label-pinned">{{t 'pinned'}}</span>
@@ -93,6 +91,12 @@
                     <span class="status-label-{{status_dasherized}} status-label striped-list-status">{{status_name}}</span>
                   {{/is}}
                 </span>
+              </div>
+              <span class="striped-list-info">
+                <h6>
+                  <a href="{{url}}" id="title-{{id}}" class="striped-list-title"></a>{{title}}
+                </h6>
+                <div>{{details}}</div>
 
                 <div class="meta-group">
                   {{#link 'user_profile' class="meta-data" id=author.id}}{{author.name}}{{/link}}
