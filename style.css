@@ -1577,17 +1577,14 @@ footer a:hover {
   background-color: $background2_color;
 }
 
-.page-header .dropdown-toggle:hover span {
-  background-color: $background3_color;
+.page-header .dropdown-toggle:hover span, .page-header .dropdown-toggle[aria-expanded='true'] span {
+  background-color: $button_background_color;
 }
 
-.page-header .dropdown-toggle:hover svg {
-  transform: rotate(45deg);
+.page-header .dropdown-toggle:hover svg, .page-header .dropdown-toggle[aria-expanded='true'] svg {
+  transform: rotate(90deg);
 }
 
-.page-header .dropdown-toggle:hover path {
-  stroke: $background2_color;
-}
 
 .sub-nav {
   display: flex;
@@ -3950,7 +3947,6 @@ footer a:hover {
 }
 .community-header .title {
   margin-bottom: 0;
-  font-weight: 500;
   font-size: 18px;
 }
 
