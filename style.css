@@ -4080,6 +4080,10 @@ footer a:hover {
   justify-content: space-between;
   margin-top: 30px;
 }
+.topic-filters {
+  display: flex;
+  gap: 20px;
+}
 .topic-header .dropdown-toggle {
   padding: 14px 20px;
   border-radius: 8px;
@@ -4090,7 +4094,6 @@ footer a:hover {
   .topic-header .dropdown {
     border-top: 0;
     display: inline-block;
-    margin-right: 20px;
   }
 }
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true] {
@@ -4190,13 +4193,13 @@ footer a:hover {
   left: 35px;
 }
 .post-list-page .posts {
-  padding: 120px 0;
+  padding-top: 201px;
   background-color: $background1_color;
 }
 
 @media (max-width: 1279px) {
   .post-list-page .posts {
-    padding: 100px 0;
+    padding-top: 181px;
   }
 }
 
@@ -4205,7 +4208,7 @@ footer a:hover {
     padding-bottom: 320px;
   }
   .post-list-page .posts {
-    padding: 80px 0;
+    padding-top: 161px;
   }
   .posts-item {
     width: calc(50% - 15px);
@@ -4215,8 +4218,11 @@ footer a:hover {
   .topic-page {
     padding-bottom: 300px;
   }
+  .topic-filters {
+    flex-direction: column;
+  }
   .post-list-page .posts {
-    padding: 60px 0;
+    padding-top: 141px;
   }
   .topic-header {
     flex-direction: column;
