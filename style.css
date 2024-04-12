@@ -4064,7 +4064,7 @@ footer a:hover {
 
 /* Community topic page */
 .topic-page {
-  padding: 201px 0 240px;
+  padding: 161px 0 240px;
 }
 .topic-header {
   font-size: 13px;
@@ -4198,13 +4198,13 @@ footer a:hover {
     padding-top: 181px;
   }
   .topic-page {
-    padding: 181px 0 200px;
+    padding-bottom: 200px;
   }
 }
 
 @media (max-width: 1023px) {
   .topic-page {
-    padding: 161px 0 160px;
+    padding-bottom: 160px;
   }
   .post-list-page .posts {
     padding-top: 161px;
