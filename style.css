@@ -3962,7 +3962,7 @@ footer a:hover {
 .featured-posts {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 60px;
   gap: 30px;
 }
 .featured-posts-item {
@@ -3970,6 +3970,10 @@ footer a:hover {
   padding: 30px;
   background: $background1_color;
   width: calc(33.3% - 20px);
+}
+.featured-posts-item .avatar img {
+  width: 50px;
+  height: 50px;
 }
 .featured-posts-item-body {
   max-height: 67px;
@@ -3991,7 +3995,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .featured-posts {
-    margin-top: 35px;
+    margin-top: 40px;
     gap: 20px;
     justify-content: center;
   }
@@ -4392,7 +4396,7 @@ footer a:hover {
 .post-meta {
   display: inline-block;
   flex: 1;
-  margin-left: 10px;
+  margin-left: 20px;
   vertical-align: middle;
 }
 [dir=rtl] .post-meta {
