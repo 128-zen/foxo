@@ -3995,7 +3995,7 @@ footer a:hover {
 
 /* Community topics grid */
 .topics {
-  padding: 120px 0;
+  padding-top: 201px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -4034,11 +4034,14 @@ footer a:hover {
   .activity {
     padding-bottom: 200px;
   }
+  .topics {
+    padding-top: 181px;
+  }
 }
 
 @media (max-width: 1023px) {
   .topics {
-    padding: 80px 0;
+    padding-top: 161px;
   }
   .activity {
     padding-bottom: 160px;
@@ -4049,7 +4052,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .topics {
-    padding: 60px 0;
+    padding-top: 141px;
   }
   .activity {
     padding-bottom: 120px;
