@@ -4001,6 +4001,9 @@ footer a:hover {
     max-width: 470px;
     width: 100%;
   }
+  .community-header {
+    margin-bottom: 40px;
+  }
 }
 
 /* Community topics grid */
