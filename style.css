@@ -4132,6 +4132,7 @@ footer a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+  margin-bottom: 30px;
 }
 .striped-list-item-top div {
   display: flex;
@@ -4158,24 +4159,9 @@ footer a:hover {
 }
 .topic-page .posts-item {
   background-color: $background1_color;
-}
-.posts-item h6, .posts-item a {
-  transition: all .3s ease;
-  line-height: 1.4;
-  color: $body_primary;
-}
-.posts-item .meta-data {
-  color: $body_primary;
-}
-.posts-item h6:hover {
-  color: $hover_link_color;
-}
+}.striped-list-title
 .striped-list-info {
   flex: 2;
-}
-.striped-list-title {
-  display: block;
-  margin-right: 5px;
 }
 .striped-list .meta-group {
   margin: 5px 0;
@@ -4187,15 +4173,11 @@ footer a:hover {
   color: $headings_primary;
 }
 .striped-list-count {
+  display: flex;
+  justify-content: space-between;
   color: $headings_primary;
   font-size: 13px;
-  justify-content: flex-start;
   text-transform: capitalize;
-}
-.striped-list-count-item::after {
-  content: "·";
-  display: inline-block;
-  padding: 0 5px;
 }
 .striped-list-count-item:last-child::after {
   display: none;
@@ -4260,13 +4242,12 @@ footer a:hover {
 /***** Status labels *****/
 /* Styles labels used in posts, articles and requests */
 .status-label {
-  background-color: #038153;
-  border-radius: 4px;
+  background-color: $button_background_color;
+  border-radius: 8px;
   color: #fff;
-  font-size: 12px;
-  font-weight: 600;
-  margin-right: 2px;
-  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 14px;
   vertical-align: middle;
   white-space: nowrap;
   display: inline-block;
