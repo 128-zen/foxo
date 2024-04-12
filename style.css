@@ -3547,10 +3547,9 @@ footer a:hover {
 /***** Comments *****/
 /* Styles comments inside articles, posts and requests */
 .comment {
-  padding: 30px 20px;
+  padding: 20px;
   border-radius: 8px;
-  border: 1px solid rgba(213, 218, 222, 0.8);
-  background-color: $background2_color;
+  background-color: $background1_color;
   margin-bottom: 20px;
 }
 .recent-articles-title,
@@ -6700,13 +6699,12 @@ html[dir=rtl] .notification-left-aligned {
 
 
 /* follow button on section page */
-reach-portal {
+reach-portal a {
   font-size: 16px;
 }
 reach-portal div {
   z-index: 1000;
   font-size: 16px;
-  font-weight: 600;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
 }
