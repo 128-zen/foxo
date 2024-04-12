@@ -4091,9 +4091,10 @@ footer a:hover {
   justify-content: space-between;
   margin-top: 30px;
 }
-.topic-header .dropdown {
+.topic-header .dropdown-toggle {
   padding: 14px 20px;
   border-radius: 8px;
+  transition: all .3s ease;
   background-color: $background2_color;
 }
 @media (min-width: 768px) {
@@ -4103,7 +4104,7 @@ footer a:hover {
     margin-right: 20px;
   }
 }
-.topic-header .dropdown:hover, .topic-header .dropdown[aria-expanded=true] {
+.topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true] {
   background-color: $button_background_color;
 }
 
