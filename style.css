@@ -659,6 +659,9 @@ ul {
 .form .suggestion-list li {
   padding: 10px 0;
 }
+.form .suggestion-list li a {
+  font-size: 16px;
+}
 .form .suggestion-list li a:visited {
   color: $visited_link_color;
 }
@@ -4255,7 +4258,7 @@ footer a:hover {
 .status-label {
   background-color: $button_background_color;
   border-radius: 8px;
-  color: $headings-primary;
+  color: $headings_primary;
   font-size: 14px;
   font-weight: 400;
   padding: 10px 14px;
@@ -4299,6 +4302,7 @@ footer a:hover {
 }
 .status-label-open {
   background-color: #c72a1c;
+  color: #fff;
 }
 .status-label-solved {
   background-color: #68737d;
@@ -4942,7 +4946,7 @@ footer a:hover {
 
 /* Requests table */
 .requests-page {
-  margin-top: 60px;
+  margin-top: 141px;
 }
 .requests-page .search {
   max-width: 570px;
@@ -5148,7 +5152,22 @@ footer a:hover {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 300px;
+  margin-bottom: 240px;
+}
+@media (max-width: 1023px) {
+  .request-container {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .request-container {
+    margin-bottom: 160px;
+  }
+}
+@media (max-width: 1023px) {
+  .request-container {
+    margin-bottom: 120px;
+  }
 }
 @media (min-width: 1024px) {
   .request-container {
@@ -5237,7 +5256,7 @@ footer a:hover {
 }
 .request-title {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 141px;
 }
 @media (min-width: 1024px) {
   .request-title {
