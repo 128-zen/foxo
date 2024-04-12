@@ -397,7 +397,7 @@ ul {
 }
 
 /***** Buttons *****/
-.subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .section-subscribe button, .split-button button, .article-subscribe button, .comment-form-controls input[type=submit] {
+.subscriptions-subscribe button, .requests-table-toolbar .organization-subscribe button, .section-subscribe button, .split-button button, .article-subscribe button, .community-follow button, .comment-form-controls input[type=submit] {
   background-color: transparent;
   border-radius: 8px;
   color: $text_primary;
