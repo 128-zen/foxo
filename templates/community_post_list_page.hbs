@@ -8,12 +8,14 @@
         <h1 class="fade-in-up">{{t 'all_posts'}}</h1>
         <span class="dropdown fade-in-up">
           <button class="dropdown-toggle" aria-haspopup="true">
-            <p class="title">
+            <p class="title"> 
               {{t 'all_posts'}}
             </p>
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-            </svg>
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
+                <path d="M1.5 5H10.5M10.5 5L6.5625 1M10.5 5L6.5625 9" stroke="#222B27" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
           </button>
           <span class="dropdown-menu" role="menu">
             {{#link 'topics' role='menuitemradio'}}

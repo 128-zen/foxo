@@ -1565,6 +1565,30 @@ footer a:hover {
   vertical-align: baseline;
 }
 
+.page-header .dropdown-toggle {
+  gap: 15px;
+}
+
+.page-header .dropdown-toggle span {
+  padding: 10px 9px;
+  border-radius: 50px;
+  font-size: 0;
+  transition: all .3s ease;
+  background-color: $background2_color;
+}
+
+.page-header .dropdown-toggle:hover span {
+  background-color: $background3_color;
+}
+
+.page-header .dropdown-toggle:hover svg {
+  transform: rotate(45deg);
+}
+
+.page-header .dropdown-toggle:hover path {
+  stroke: $background2_color;
+}
+
 .sub-nav {
   display: flex;
   flex-direction: column;
