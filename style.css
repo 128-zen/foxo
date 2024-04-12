@@ -4883,7 +4883,7 @@ footer a:hover {
 
 /***** My activities *****/
 .my-activities-nav {
-  margin-top: 60px;
+  margin-top: 141px;
   margin-bottom: 20px;
 }
 .my-activities-sub-nav {
@@ -6700,9 +6700,12 @@ html[dir=rtl] .notification-left-aligned {
 
 
 /* follow button on section page */
+reach-portal {
+  font-size: 16px;
+}
 reach-portal div {
   z-index: 1000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
