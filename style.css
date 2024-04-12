@@ -486,6 +486,7 @@ ul {
 /***** Tables *****/
 .table {
   width: 100%;
+  font-size: 16px;
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
@@ -2376,7 +2377,7 @@ footer a:hover {
 @media(max-width: 767px) {
   .submit-request-page, .new-post-page {
     padding-bottom: 120px;
-    padding-top: 141px;
+    padding-top: 141px; 
   }
   .submit-request-page .container, .new-post-page .container {
     gap: 30px;
@@ -4724,6 +4725,7 @@ footer a:hover {
 .collapsible-nav-list {
   display: flex;
   flex-direction: column;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   .collapsible-nav-list {
