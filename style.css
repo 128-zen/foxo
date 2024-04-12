@@ -4962,13 +4962,26 @@ footer a:hover {
   width: 100%;
 }
 .requests {
-  margin: 30px 0 300px;
+  margin: 30px 0 240px;
 }
 .requests-table-toolbar {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 1279px) {
+  .requests {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .requests {
+    margin-bottom: 160px;
+  }
+}
 @media (max-width: 767px) {
+  .requests {
+    margin-bottom: 120px;
+  }
   .requests-page .search {
     max-width: none;
   }
