@@ -690,7 +690,6 @@ ul {
 .header__lists {
   display: flex;
   align-items: center;
-  gap: 12px;
 }
 .header__lists a {
   line-height: 1.1;
@@ -830,7 +829,6 @@ ul {
   .nav-wrapper-desktop {
     display: flex;
     align-items: center;
-    gap: 15px;
   }
 }
 
