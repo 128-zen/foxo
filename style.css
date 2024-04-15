@@ -1603,7 +1603,7 @@ footer a:hover {
   flex-wrap: wrap;
   gap: 15px 30px;
   justify-content: space-between;
-  margin-top: 101px;
+  margin-top: 116px;
 }
 .sub-nav .breadcrumbs {
   padding: 0;
@@ -2387,7 +2387,7 @@ footer a:hover {
 @media(max-width: 767px) {
   .submit-request-page, .new-post-page {
     padding-bottom: 120px;
-    padding-top: 141px; 
+    padding-top: 156px; 
   }
   .submit-request-page .container, .new-post-page .container {
     gap: 30px;
@@ -2756,7 +2756,7 @@ footer a:hover {
 
 /***** Section pages *****/
 .section-page {
-  padding-top: 161px;
+  padding-top: 176px;
 }
 
 .section-page>.container {
@@ -2961,7 +2961,7 @@ footer a:hover {
 
 @media (max-width: 767px) {
   .section-page {
-    padding-top: 141px
+    padding-top: 156px
   }
   .section-page>.container {
     flex-direction: column-reverse;
@@ -2993,7 +2993,7 @@ footer a:hover {
 
 /***** Article page *****/
 .article-page {
-  padding-top: 161px;
+  padding-top: 176px;
 }
 
 .article-page>.container {
@@ -3454,7 +3454,7 @@ footer a:hover {
 
 @media (max-width: 767px) {
   .article-page {
-    padding-top: 141px;
+    padding-top: 156px;
   }
   .article-page h1, .post-title h1 {
     font-size: 46px;
@@ -4017,7 +4017,7 @@ footer a:hover {
 
 /* Community topics grid */
 .topics {
-  padding-top: 201px;
+  padding-top: 216px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -4057,13 +4057,13 @@ footer a:hover {
     padding-bottom: 200px;
   }
   .topics {
-    padding-top: 181px;
+    padding-top: 196px;
   }
 }
 
 @media (max-width: 1023px) {
   .topics {
-    padding-top: 161px;
+    padding-top: 176px;
   }
   .activity {
     padding-bottom: 160px;
@@ -4074,7 +4074,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .topics {
-    padding-top: 141px;
+    padding-top: 156px;
   }
   .activity {
     padding-bottom: 120px;
@@ -4211,13 +4211,13 @@ footer a:hover {
   left: 35px;
 }
 .post-list-page .posts {
-  padding-top: 201px;
+  padding-top: 216px;
   background-color: $background1_color;
 }
 
 @media (max-width: 1279px) {
   .post-list-page .posts {
-    padding-top: 181px;
+    padding-top: 196px;
   }
   .topic-page {
     padding-bottom: 200px;
@@ -4229,7 +4229,7 @@ footer a:hover {
     padding-bottom: 160px;
   }
   .post-list-page .posts {
-    padding-top: 161px;
+    padding-top: 176px;
   }
   .posts-item {
     width: calc(50% - 15px);
@@ -4237,13 +4237,13 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .topic-page {
-    padding: 141px 0 120px;
+    padding: 156px 0 120px;
   }
   .topic-filters {
     flex-direction: column;
   }
   .post-list-page .posts {
-    padding-top: 141px;
+    padding-top: 156px;
   }
   .topic-header {
     flex-direction: column;
@@ -4893,7 +4893,7 @@ footer a:hover {
 
 /***** My activities *****/
 .my-activities-nav {
-  margin-top: 141px;
+  margin-top: 156px;
   margin-bottom: 20px;
 }
 .my-activities-sub-nav {
@@ -4953,7 +4953,7 @@ footer a:hover {
 
 /* Requests table */
 .requests-page {
-  margin-top: 141px;
+  margin-top: 156px;
 }
 .requests-page .search {
   max-width: 570px;
@@ -5267,7 +5267,7 @@ footer a:hover {
 }
 .request-title {
   width: 100%;
-  margin-top: 141px;
+  margin-top: 156px;
 }
 @media (min-width: 1024px) {
   .request-title {
@@ -5446,7 +5446,7 @@ footer a:hover {
 }
 /* User Profiles */
 .profile-header {
-  margin-top: 171px;
+  margin-top: 186px;
   padding-bottom: 30px;
 }
 
@@ -5513,7 +5513,7 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .profile-header {
-    margin-top: 151px;
+    margin-top: 156px;
   }
   .profile-header .basic-info .name a {
     font-size: 50px;
