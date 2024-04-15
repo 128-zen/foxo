@@ -815,6 +815,10 @@ ul {
   cursor: pointer;
 }
 
+.user-info {
+  margin-left: 15px;
+}
+
 @media (max-width: 768px) {
   .nav-wrapper-desktop {
     display: none;
