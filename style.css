@@ -6128,8 +6128,8 @@ footer a:hover {
 
 /***** Search results *****/
 .search-results-page .container {
-  padding-top: 120px;
-  padding-bottom: 360px;
+  padding-top: 216px;
+  padding-bottom: 240px;
   display: flex;
   gap: 50px;
 }
@@ -6324,14 +6324,14 @@ footer a:hover {
 }
 @media (max-width: 1279px) {
   .search-results-page .container {
-    padding-top: 100px;
-    padding-bottom: 340px;
+    padding-top: 196px;
+    padding-bottom: 200px;
   }
 }
 @media (max-width: 1023px) {
   .search-results-page .container {
-    padding-top: 80px;
-    padding-bottom: 320px;
+    padding-top: 176px;
+    padding-bottom: 160px;
     gap: 30px;
     flex-direction: column-reverse;
   }
@@ -6348,8 +6348,8 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .search-results-page .container {
-    padding-top: 60px;
-    padding-bottom: 300px;
+    padding-top: 156px;
+    padding-bottom: 120px;
   }
   .search-results-sidebar {
     max-width: none;
