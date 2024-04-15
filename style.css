@@ -5439,7 +5439,7 @@ footer a:hover {
 }
 /* User Profiles */
 .profile-header {
-  margin-top: 60px;
+  margin-top: 171px;
   padding-bottom: 30px;
 }
 
@@ -5505,6 +5505,9 @@ footer a:hover {
   color: $headings_primary;
 }
 @media (max-width: 767px) {
+  .profile-header {
+    margin-top: 151px;
+  }
   .profile-header .basic-info .name a {
     font-size: 50px;
   }
@@ -5701,7 +5704,22 @@ footer a:hover {
 
 .profile-section {
   width: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 240px;
+}
+@media (max-width: 1279px) {
+  .profile-section {
+    margin-bottom: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .profile-section {
+    margin-bottom: 160px;
+  }
+}
+@media (max-width: 1023px) {
+  .profile-section {
+    margin-bottom: 120px;
+  }
 }
 @media (min-width: 1024px) {
   .profile-section {
