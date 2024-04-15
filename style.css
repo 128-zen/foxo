@@ -4104,7 +4104,7 @@ footer a:hover {
     display: inline-block;
   }
 }
-.topic-page .topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle {
+.topic-page .topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle, .profile-section-sorter .dropdown-toggle {
   background-color: $background1_color;
 }
 .topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded=true], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded=true] {
@@ -5741,8 +5741,7 @@ footer a:hover {
   font-size: 13px;
 }
 .profile-section-sorter .dropdown-toggle {
-  padding: 10px 0;
-  width: 100%;
+  margin-bottom: 10px;
 }
 .profile-section-sorter .dropdown-toggle::after {
   position: absolute;
