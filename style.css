@@ -5963,6 +5963,9 @@ footer a:hover {
   position: relative;
   padding-bottom: 30px;
 }
+.profile-activity:nth-last-of-type() {
+  padding-bottom: 0;
+}
 @media (min-width: 768px) {
   .profile-activity {
     padding-left: 20px;
