@@ -2401,8 +2401,8 @@ footer a:hover {
 /***** Error page *****/
 .error-page {
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 360px;
+  padding-top: 156px;
+  padding-bottom: 240px;
   background-color: $background1_color;
   flex-grow: 1;
 }
@@ -2437,12 +2437,12 @@ footer a:hover {
 
 @media (max-width: 1023px) {
   .error-page {
-    padding-bottom: 320px;
+    padding-bottom: 160px;
   }
 }
 @media (max-width: 767px) {
   .error-page {
-    padding-bottom: 300px;
+    padding-bottom: 120px;
   }
   .error-page h1 {
     font-size: 90px;
