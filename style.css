@@ -6246,6 +6246,7 @@ footer a:hover {
   align-items: center;
 }
 .search-results-page .container .no-results .headline {
+  margin-top: 20px;
   margin-bottom: 5px;
 }
 
