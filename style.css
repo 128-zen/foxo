@@ -1188,7 +1188,7 @@ ul {
   height: auto;
 }
 .footer__social path {
-  fill: $headings_secondary;
+  fill: $text_secondary;
 }
 
 .footer__social a:hover path {
@@ -1956,7 +1956,7 @@ footer a:hover {
 }
 
 .find-solution__item div:hover path{
-  stroke: $headings_secondary;
+  stroke: $text_secondary;
 }
 
 
@@ -2734,7 +2734,7 @@ footer a:hover {
 }
 
 .category-page__article > div:last-of-type:hover path, .section-page__article > div:last-of-type:hover path, .featured-posts-btn:hover path {
-  stroke: $headings_secondary;
+  stroke: $text_secondary;
 }
 
 @media(max-width: 1279px) {
