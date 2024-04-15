@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.0.144",
+  "version": "1.0.145",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -278,6 +278,13 @@
           "type": "checkbox",
           "description": "scoped_community_search_description",
           "label": "scoped_community_search_label",
+          "value": true
+        },
+        {
+          "identifier": "show_popular_keywords",
+          "type": "checkbox",
+          "description": "Show popular keywords",
+          "label": "Toggle Popular Keywords",
           "value": true
         },
         {
