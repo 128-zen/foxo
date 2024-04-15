@@ -4092,7 +4092,7 @@ footer a:hover {
   display: flex;
   gap: 20px;
 }
-.topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle {
+.topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle, .profile-section-sorter .dropdown-toggle {
   padding: 14px 20px;
   border-radius: 8px;
   transition: all .3s ease;
@@ -4107,7 +4107,7 @@ footer a:hover {
 .topic-page .topic-header .dropdown-toggle, .my-activities-following-header .dropdown-toggle {
   background-color: $background1_color;
 }
-.topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded=true] {
+.topic-header .dropdown-toggle:hover, .topic-header .dropdown-toggle[aria-expanded=true], .my-activities-following-header .dropdown-toggle:hover, .my-activities-following-header .dropdown-toggle[aria-expanded=true], .profile-section-sorter .dropdown-toggle:hover, .profile-section-sorter .dropdown-toggle[aria-expanded=true] {
   background-color: $button_background_color;
 }
 
