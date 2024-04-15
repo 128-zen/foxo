@@ -2407,7 +2407,6 @@ footer a:hover {
   text-align: center;
   padding-top: 156px;
   padding-bottom: 240px;
-  background-color: $background1_color;
   flex-grow: 1;
 }
 .error-page .container {
