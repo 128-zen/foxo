@@ -1456,6 +1456,12 @@ footer a:hover {
   .hero__content p {
     margin-bottom: 40px;
   }
+  .hero > img {
+    bottom: -30px;
+  }
+  .category-page .hero > img {
+    bottom: -60px;
+  }
 }
 
 .hero-inner {
