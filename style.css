@@ -1214,8 +1214,9 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid rgba(166, 179, 228, 0.25);
+  padding: 30px 0;
   max-width: 1170px;
-  padding-bottom: 30px;
 }
 
 .footer__bottom a {
@@ -1852,6 +1853,25 @@ footer a:hover {
 
 .introduction__item p {
   margin-top: 14px;
+}
+
+.introduction__item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background-color: $headings_primary;
+  transition: width .5s ease;
+}
+
+.introduction__item a:hover::after {
+  width: 100%;
+}
+
+.introduction__item a:hover {
+  color: $headings_primary;
 }
 
 @media (max-width: 1023px) {
