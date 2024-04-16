@@ -1855,7 +1855,12 @@ footer a:hover {
   margin-top: 14px;
 }
 
-.introduction__item a::after {
+.introduction__item a, .contact-us__item a {
+  position: relative;
+  display: inline-block;
+}
+
+.introduction__item a::after, .contact-us__item a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -1866,11 +1871,11 @@ footer a:hover {
   transition: width .5s ease;
 }
 
-.introduction__item a:hover::after {
+.introduction__item a:hover::after, .contact-us__item a:hover::after {
   width: 100%;
 }
 
-.introduction__item a:hover {
+.introduction__item a:hover, .contact-us__item a:hover {
   color: $headings_primary;
 }
 
