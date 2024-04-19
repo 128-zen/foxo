@@ -6426,8 +6426,8 @@ footer a:hover {
 }
 .search-result-description em {
   padding: 0 3px;
-  background-color: $background4_color;
-  color: $text_secondary;
+  background-color: $button_background_color;
+  color: $headings_primary;
 }
 .search-result-bottom {
   margin-top: 20px;
