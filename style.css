@@ -1155,6 +1155,7 @@ ul {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  max-width: 900px;
 }
 
 .footer__submit-request h2 {
@@ -1237,11 +1238,10 @@ footer a:hover {
   }
 }
 
-@media (max-width: 1023px) {
-
-}
-
 @media (max-width: 767px) {
+  .footer__submit-request .container {
+    max-width: 600px;
+  }
   .footer__bottom .container {
     flex-direction: column;
     gap: 10px;
@@ -4230,7 +4230,8 @@ footer a:hover {
 }
 .topic-page .posts-item {
   background-color: $background1_color;
-}.striped-list-title
+}
+.striped-list-title
 .striped-list-info {
   flex: 2;
 }
