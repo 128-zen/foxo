@@ -1232,6 +1232,12 @@ footer a:hover {
   color: $text_secondary;
 }
 
+@media (max-width: 1279px) {
+  .footer__submit-request .container {
+    max-width: 600px;
+  }
+}
+
 @media (max-width: 1199px) {
   .footer__bottom .container {
     width: calc(100% - 30px);
@@ -1239,9 +1245,6 @@ footer a:hover {
 }
 
 @media (max-width: 767px) {
-  .footer__submit-request .container {
-    max-width: 600px;
-  }
   .footer__bottom .container {
     flex-direction: column;
     gap: 10px;
