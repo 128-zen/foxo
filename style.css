@@ -2822,11 +2822,11 @@ footer a:hover {
   position: relative;
   display: flex;
   padding-bottom: 240px;
+  gap: 30px;
 }
 
 .nav {
   width: 27%;
-  padding-right: 30px;
   position: sticky;
   top: 94px;
   align-self: start;
@@ -2959,7 +2959,7 @@ footer a:hover {
 }
 
 .section-page__articles li {
-  width: calc(50% - 30px);
+  width: calc(50% - 15px);
 }
 
 .section-page__article {
@@ -3001,9 +3001,10 @@ footer a:hover {
 @media (max-width: 1023px) {
   .section-page>.container {
     padding-bottom: 160px;
+    gap: 20px;
   }
   .nav {
-    padding-right: 20px;
+    width: 35%;
   }
   .section-page__content {
     padding-left: 30px;
@@ -3032,7 +3033,6 @@ footer a:hover {
     position: static;
     max-width: none;
     border: none;
-    padding-right: 0;
   }
   .nav form {
     max-width: none;
@@ -3059,10 +3059,30 @@ footer a:hover {
   position: relative;
   display: flex;
   padding-bottom: 240px;
+  gap: 30px;
 }
 
-.section-id {
-  display: none;
+.nav__articles ul {
+  padding: 20px;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 10px;
+  border: 1px solid rgba(64, 73, 107, 0.12);
+  background: $background1_color;
+}
+
+.nav__articles li {
+  margin-bottom: 15px;
+}
+
+.nav__articles li:last-child {
+  margin-bottom: 0;
+}
+
+.nav__articles .current-article {
+  color: $hover_link_color;
+  font-weight: 500;
 }
 
 .article-container {
@@ -3507,11 +3527,13 @@ footer a:hover {
 @media (max-width: 1023px) {
   .article-page>.container {
     padding-bottom: 160px;
+    gap: 20px;
   }
   .article-page h1, .post-title h1 {
     font-size: 50px;
   }
   .article-container {
+    width: 65%;
     padding-left: 30px;
   }
 }
