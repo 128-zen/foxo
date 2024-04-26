@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -704,39 +704,6 @@
           "description": "Enter subtitle",
           "label": "Item 3 Subtitle",
           "value": "Here, you'll find comprehensive guides"
-        }
-      ]
-    },
-    {
-      "label": "Homepage Explore Topics Section",
-      "variables": [
-        {
-          "identifier": "show_explore_topics",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
-          "identifier": "explore_topics_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Section Heading",
-          "value": "Explore topics"
-        },
-        {
-          "identifier": "explore_topics_button",
-          "type": "text",
-          "description": "Enter text",
-          "label": "Section Button Text",
-          "value": "View All"
-        },
-        {
-          "identifier": "explore_topics_button_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Section Button Link",
-          "value": "#"
         }
       ]
     },
