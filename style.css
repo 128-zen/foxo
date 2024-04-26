@@ -2894,7 +2894,7 @@ footer a:hover {
   align-items: start;
   border-radius: 10px;
   border: 1px solid rgba(64, 73, 107, 0.12);
-  background: $background1_color;
+  background: $background2_color;
 }
 
 .nav__sections.open {
@@ -3069,7 +3069,7 @@ footer a:hover {
   align-items: start;
   border-radius: 10px;
   border: 1px solid rgba(64, 73, 107, 0.12);
-  background: $background1_color;
+  background: $background2_color;
 }
 
 .nav__articles li {
@@ -6218,7 +6218,7 @@ footer a:hover {
 }
 
 .search-results-sidebar {
-  width: auto;
+  width: 220px;
 }
 
 .search-results-sidebar .sidenav-item {
