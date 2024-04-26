@@ -1454,7 +1454,12 @@ footer a:hover {
   }
 }
 @media (max-width: 1023px) {
-
+  .hero {
+    padding-top: 150px;
+  }
+  .hero__content {
+    max-width: 600px;
+  }
 }
 @media (max-width: 767px) {
   .hero {
@@ -2339,6 +2344,9 @@ footer a:hover {
   .faq {
     padding-bottom: 160px;
   }
+  .faq__item {
+    padding: 20px;
+  }
 }
 @media (max-width: 767px) {
   .faq {
@@ -2349,7 +2357,6 @@ footer a:hover {
     padding: 30px;
   }
   .faq__item {
-    padding: 20px;
     width: 100%;
   }
 }
