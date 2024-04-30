@@ -429,8 +429,8 @@ ul {
 
 
 .subscriptions-subscribe button:hover, .section-subscribe button:hover, .comment-form-controls input[type=submit]:hover, .split-button button:hover {
-  background-color: $background3_color;
-  border: 1px solid $background3_color;
+  background-color: $button_hover_background_color;
+  border: 1px solid $button_hover_background_color;
   color: $text_secondary;
 }
 
@@ -637,8 +637,8 @@ ul {
 }
 .form footer input:hover {
   color: $text_secondary;
-  background-color: $background3_color;
-  border: 1px solid $background3_color;
+  background-color: $button_hover_background_color;
+  border: 1px solid $button_hover_background_color;
 }
 
 .form footer a {
@@ -1463,7 +1463,6 @@ footer a:hover {
 }
 @media (max-width: 767px) {
   .hero {
-    padding-top: 175px;
     padding-bottom: 160px;
   }
   .hero__content {
@@ -1517,8 +1516,8 @@ footer a:hover {
   color: $headings_primary;
 }
 .hero .search input[type=submit]:hover, .error-page .search input[type=submit]:hover {
-  background-color: $background3_color;
-  border: 1px solid $background3_color;
+  background-color: $button_hover_background_color;
+  border: 1px solid $button_hover_background_color;
   color: $text_secondary;
 }
 .hero .search-icon, .error-page .search-icon {
@@ -1848,7 +1847,7 @@ footer a:hover {
 }
 
 .introduction__item:nth-of-type(3) {
-  background-color: $introduction_background3_color;
+  background-color: $introduction_button_hover_background_color;
 }
 
 .introduction__item > div {
@@ -1986,7 +1985,7 @@ footer a:hover {
 }
 
 .find-solution__item div:hover span {
-  background-color: $background3_color;
+  background-color: $button_hover_background_color;
 }
 
 .find-solution__item div:hover svg {
@@ -2119,6 +2118,7 @@ footer a:hover {
 @media (max-width: 767px) {
   .videos__items {
     gap: 30px;
+    margin-top: 40px;
   }
   .videos__item {
     width: 100%;
@@ -2231,8 +2231,10 @@ footer a:hover {
     gap: 20px;
   }
   .categories__section {
-    padding: 20px;
     width: 100%;
+  }
+  .categories__item ul {
+    margin: 20px 0 30px;
   }
 }
 
@@ -2352,9 +2354,12 @@ footer a:hover {
   .faq {
     padding-bottom: 120px;
   }
+  .faq .container > p {
+    margin-bottom: 40px;
+  }
   .faq__items {
     gap: 20px;
-    padding: 30px;
+    padding: 20px;
   }
   .faq__item {
     width: 100%;
@@ -2657,6 +2662,7 @@ footer a:hover {
 
 /***** Category pages *****/
 .category-page .hero {
+  padding-top: 190px;
   padding-bottom: 100px;
 }
 .category-page .hero .container {
@@ -2686,7 +2692,8 @@ footer a:hover {
 }
 
 .category-page__content>p {
-  margin-top: 30px;
+  max-width: 550px;
+  margin: 30px auto 0;
   text-align: center;
   font-size: 18px;
 }
@@ -2769,7 +2776,7 @@ footer a:hover {
 }
 
 .category-page__article > div:last-of-type:hover span, .section-page__article > div:last-of-type:hover span, .featured-posts-btn:hover span {
-  background-color: $background3_color;
+  background-color: $button_hover_background_color;
 }
 
 .category-page__article > div:last-of-type:hover svg, .section-page__article > div:last-of-type:hover svg, .featured-posts-btn:hover svg {
@@ -2788,6 +2795,9 @@ footer a:hover {
   .category-page__sections {
     padding-bottom: 200px;
   }
+  .category-page__article {
+    padding: 20px;
+  }
 }
 @media(max-width: 1023px) {
   .category-page__sections {
@@ -2795,8 +2805,9 @@ footer a:hover {
   }
   .category-page__section-heading {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     align-items: start;
+    margin-bottom: 40px;
   }
   .category-page__article {
     width: calc(50% - 15px);
@@ -2812,9 +2823,6 @@ footer a:hover {
   }
   .category-page__content {
     text-align: center;
-  }
-  .category-page__section-heading {
-    margin-bottom: 40px;
   }
   .category-page__sections {
     text-align: left;
@@ -3426,7 +3434,7 @@ footer a:hover {
   cursor: pointer;
   border-radius: 8px;
   background-color: transparent;
-  border: 1px solid $background3_color;
+  border: 1px solid $button_hover_background_color;
 }
 
 .article-vote path {
@@ -6837,8 +6845,8 @@ html[dir=rtl] .notification-left-aligned {
 }
 
 .button-primary:hover {
-  background-color: $background3_color;
-  border: 1px solid $background3_color;
+  background-color: $button_hover_background_color;
+  border: 1px solid $button_hover_background_color;
   color: $text_secondary;
 }
 
