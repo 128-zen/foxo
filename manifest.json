@@ -1,7 +1,7 @@
 {
   "name": "Foxo 128",
   "author": "128zen",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -39,15 +39,15 @@
         {
           "identifier": "body_secondary",
           "type": "color",
-          "description": "Choose body secondary color",
+          "description": "It is used for the light color paragraphs on the dark background",
           "label": "Body Secondary Color",
           "value": "#C7CAD0"
         },
         {
           "identifier": "text_secondary",
           "type": "color",
-          "description": "It is used for the light color on the dark background",
-          "label": "Text Secondary Color",
+          "description": "It is used for the light color headings on the dark background",
+          "label": "Heading Secondary Color",
           "value": "#FFFFFF"
         },
         {
@@ -515,13 +515,6 @@
       "label": "Homepage Find Solution Section",
       "variables": [
         {
-          "identifier": "show_find_solution_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
           "identifier": "find_solution_heading",
           "type": "text",
           "description": "Enter section heading",
@@ -710,13 +703,6 @@
     {
       "label": "Homepage FAQ Section",
       "variables": [
-        {
-          "identifier": "show_faq",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
         {
           "identifier": "faq_heading",
           "type": "text",
